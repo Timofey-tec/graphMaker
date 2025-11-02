@@ -1,7 +1,7 @@
-package_name = "MainModule"
-repo_path = "./test_repo"
-repo_mode = "local"
+package_name = "curl"
+repo_path = "https://dl-cdn.alpinelinux.org/alpine/latest-stable/main/x86_64/APKINDEX.tar.gz"
+repo_mode = "remote"
 output_file = "graph.dot"
-ascii_mode = true
-max_depth = 3
-filter_substring = "util"
+ascii_mode = false
+max_depth = 1
+filter_substring = ""
