@@ -5,13 +5,10 @@ import tarfile
 import urllib.request
 import ssl
 from collections import deque, defaultdict
+import subprocess
 
 CONFIG_PATH = "config.toml"
 
-
-# -----------------------------
-#  ЭТАП 1 — загрузка и валидация config.toml
-# -----------------------------
 
 def load_config(path):
     if not os.path.exists(path):
@@ -48,22 +45,16 @@ def validate_config(cfg):
         raise ValueError("\n".join(errors))
 
 
-# -----------------------------
-#  ЭТАП 2 — загрузка APKINDEX и прямые зависимости
-# -----------------------------
 
 def download_apk_index(repo_path, repo_mode):
-    """Загрузка APKINDEX с безопасным обходом SSL для macOS/Python"""
+    """Загрузка APKINDEX с SSL-обходом для macOS/Windows"""
     if repo_mode == "remote":
         print(f"Загрузка APKINDEX из {repo_path} ...")
-        import ssl
         ctx = ssl._create_unverified_context()
 
-        # Используем urlopen + запись в файл
         with urllib.request.urlopen(repo_path, context=ctx) as response, open("APKINDEX.tar.gz", "wb") as out_file:
             out_file.write(response.read())
 
-        # Распаковка
         with tarfile.open("APKINDEX.tar.gz", "r:gz") as tar:
             tar.extract("APKINDEX")
         return "APKINDEX"
@@ -75,15 +66,12 @@ def download_apk_index(repo_path, repo_mode):
         return local
 
     elif repo_mode == "test":
-        return repo_path
-
+        return repo_path  # путь к тестовому файлу
 
 
 def parse_apk_index(index_path, package_name, test_mode=False):
     """Чтение APKINDEX или тестового файла"""
     if test_mode:
-        # Формат:
-        # A: B C D
         dep_map = {}
         with open(index_path, "r") as f:
             for line in f:
@@ -95,29 +83,21 @@ def parse_apk_index(index_path, package_name, test_mode=False):
                 dep_map[pkg] = deps
         return dep_map.get(package_name, [])
 
-    # Обычный APKINDEX
     deps = []
     current = None
     with open(index_path, "r", encoding="utf-8", errors="ignore") as f:
         for line in f:
             line = line.strip()
-
             if line.startswith("P:"):
                 current = line[2:]
-
             elif line.startswith("D:") and current == package_name:
                 deps = [d for d in line[2:].split(" ") if d]
                 break
-
     return deps
 
 
-# -----------------------------
-#  ЭТАП 3 — BFS граф зависимостей
-# -----------------------------
 
 def get_all_dependencies_bfs(root_pkg, index_path, max_depth, filter_substring, test_mode):
-    """Строит граф зависимостей BFS без рекурсии."""
     graph = defaultdict(list)
     visited = set()
     queue = deque([(root_pkg, 0)])
@@ -146,35 +126,64 @@ def get_all_dependencies_bfs(root_pkg, index_path, max_depth, filter_substring, 
     return graph
 
 
-# -----------------------------
-#  ЭТАП 4 — Обратные зависимости
-# -----------------------------
 
 def get_reverse_dependencies(graph):
-    """Строит обратный граф зависимостей."""
     reverse_graph = defaultdict(list)
-
     for pkg, deps in graph.items():
         for d in deps:
             reverse_graph[d].append(pkg)
-
     return reverse_graph
 
 
 def print_reverse_deps(reverse_graph, target):
-    """Печать прямых обратных зависимостей."""
     print(f"\nОбратные зависимости для '{target}':")
     if target not in reverse_graph or not reverse_graph[target]:
         print("  Нет пакетов, которые зависят от этого.")
         return
-
     for pkg in reverse_graph[target]:
         print(f"  - {pkg}")
 
 
-# -----------------------------
-# MAIN
-# -----------------------------
+
+def generate_dot(graph):
+    lines = ["digraph G {"]
+    for pkg, deps in graph.items():
+        for dep in deps:
+            lines.append(f'    "{pkg}" -> "{dep}";')
+        if not deps:
+            lines.append(f'    "{pkg}";')
+    lines.append("}")
+    return "\n".join(lines)
+
+
+def save_graph_svg(dot_str, output_file):
+    try:
+        svg_file = output_file if output_file.endswith(".svg") else output_file + ".svg"
+        process = subprocess.run(
+            ["dot", "-Tsvg", "-o", svg_file],
+            input=dot_str.encode("utf-8"),
+            check=True
+        )
+        print(f"Граф сохранен в {svg_file}")
+    except FileNotFoundError:
+        print("Ошибка: Graphviz не установлен или не найден 'dot'")
+    except subprocess.CalledProcessError as e:
+        print("Ошибка при генерации SVG:", e)
+
+
+def print_ascii_tree(graph, root, prefix=""):
+    print(prefix + root)
+    deps = graph.get(root, [])
+    for i, dep in enumerate(deps):
+        if i == len(deps) - 1:
+            connector = "└─ "
+            next_prefix = prefix + "   "
+        else:
+            connector = "├─ "
+            next_prefix = prefix + "│  "
+        print_ascii_tree(graph, dep, prefix=next_prefix + connector)
+
+
 
 def main():
     try:
@@ -191,13 +200,13 @@ def main():
         print("Получение APKINDEX...")
         index_path = download_apk_index(config["repo_path"], config["repo_mode"])
 
-        # ------ Этап 2 ------
+        # Этап 2: прямые зависимости
         print(f"\nПрямые зависимости '{config['package_name']}':")
         direct = parse_apk_index(index_path, config["package_name"], test_mode)
         for d in direct:
             print(f"  - {d}")
 
-        # ------ Этап 3 ------
+        # Этап 3: граф BFS
         print("\nПостроение графа зависимостей (BFS)...")
         graph = get_all_dependencies_bfs(
             config["package_name"],
@@ -211,10 +220,17 @@ def main():
         for pkg, deps in graph.items():
             print(f"{pkg}: {deps}")
 
-        # ------ Этап 4 ------
-        print("\nПоиск обратных зависимостей...")
+        # Этап 4: обратные зависимости
         rev = get_reverse_dependencies(graph)
         print_reverse_deps(rev, config["package_name"])
+
+        # Этап 5: визуализация
+        dot_str = generate_dot(graph)
+        save_graph_svg(dot_str, config["output_file"])
+
+        if config["ascii_mode"]:
+            print("\nASCII-дерево зависимостей:")
+            print_ascii_tree(graph, config["package_name"])
 
     except Exception as e:
         print(f"Ошибка: {e}")
