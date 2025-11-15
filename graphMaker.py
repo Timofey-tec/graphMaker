@@ -3,11 +3,15 @@ import os
 import tomllib
 import tarfile
 import urllib.request
+import ssl
+from collections import deque, defaultdict
 
 CONFIG_PATH = "config.toml"
 
-TEST_REPO = {}
 
+# -----------------------------
+#  ЭТАП 1 — загрузка и валидация config.toml
+# -----------------------------
 
 def load_config(path):
     if not os.path.exists(path):
@@ -44,120 +48,133 @@ def validate_config(cfg):
         raise ValueError("\n".join(errors))
 
 
+# -----------------------------
+#  ЭТАП 2 — загрузка APKINDEX и прямые зависимости
+# -----------------------------
+
 def download_apk_index(repo_path, repo_mode):
+    """Загрузка APKINDEX с безопасным обходом SSL для macOS/Python"""
     if repo_mode == "remote":
         print(f"Загрузка APKINDEX из {repo_path} ...")
-        urllib.request.urlretrieve(repo_path, "APKINDEX.tar.gz")
+        import ssl
+        ctx = ssl._create_unverified_context()
+
+        # Используем urlopen + запись в файл
+        with urllib.request.urlopen(repo_path, context=ctx) as response, open("APKINDEX.tar.gz", "wb") as out_file:
+            out_file.write(response.read())
+
+        # Распаковка
         with tarfile.open("APKINDEX.tar.gz", "r:gz") as tar:
             tar.extract("APKINDEX")
         return "APKINDEX"
 
     elif repo_mode == "local":
-        apk = os.path.join(repo_path, "APKINDEX")
-        if not os.path.exists(apk):
-            raise FileNotFoundError(f"Не найден локальный файл: {apk}")
-        return apk
+        local = os.path.join(repo_path, "APKINDEX")
+        if not os.path.exists(local):
+            raise FileNotFoundError(f"Не найден локальный файл: {local}")
+        return local
 
-    else:
-        return None
+    elif repo_mode == "test":
+        return repo_path
 
 
-def parse_apk_index(index_path, package_name):
+
+def parse_apk_index(index_path, package_name, test_mode=False):
+    """Чтение APKINDEX или тестового файла"""
+    if test_mode:
+        # Формат:
+        # A: B C D
+        dep_map = {}
+        with open(index_path, "r") as f:
+            for line in f:
+                if ":" not in line:
+                    continue
+                pkg, deps = line.strip().split(":")
+                pkg = pkg.strip()
+                deps = deps.strip().split() if deps.strip() else []
+                dep_map[pkg] = deps
+        return dep_map.get(package_name, [])
+
+    # Обычный APKINDEX
     deps = []
     current = None
     with open(index_path, "r", encoding="utf-8", errors="ignore") as f:
         for line in f:
             line = line.strip()
+
             if line.startswith("P:"):
                 current = line[2:]
+
             elif line.startswith("D:") and current == package_name:
                 deps = [d for d in line[2:].split(" ") if d]
                 break
+
     return deps
 
 
+# -----------------------------
+#  ЭТАП 3 — BFS граф зависимостей
+# -----------------------------
 
-
-def load_test_repo_graph(path):
-    global TEST_REPO
-    TEST_REPO = {}
-
-    with open(path, "r") as f:
-        for line in f:
-            if ":" not in line:
-                continue
-            pkg, deps = line.strip().split(":")
-            deps = deps.strip().split() if deps.strip() else []
-            TEST_REPO[pkg.strip()] = deps
-
-
-
-
-def get_all_dependencies_bfs(root, index_path, max_depth, filter_substring, is_test):
-    graph = {}
+def get_all_dependencies_bfs(root_pkg, index_path, max_depth, filter_substring, test_mode):
+    """Строит граф зависимостей BFS без рекурсии."""
+    graph = defaultdict(list)
     visited = set()
-    queue = [(root, 0)]
+    queue = deque([(root_pkg, 0)])
 
     while queue:
-        pkg, depth = queue.pop(0)
-        if pkg in visited:
-            continue
-        visited.add(pkg)
+        pkg, depth = queue.popleft()
 
         if depth > max_depth:
             continue
 
-        if filter_substring and filter_substring in pkg:
-            continue
-
-        if is_test:
-            deps = TEST_REPO.get(pkg, [])
-        else:
-            deps = parse_apk_index(index_path, pkg)
-
-        graph[pkg] = deps
-
-        for d in deps:
-            if d not in visited:
-                queue.append((d, depth + 1))
-
-    return graph
-
-
-
-
-def build_reverse_graph(graph):
-    """Разворачивает граф: A->B -> B->A"""
-    rev = {}
-    for pkg in graph:
-        rev.setdefault(pkg, [])
-        for dep in graph[pkg]:
-            rev.setdefault(dep, [])
-            rev[dep].append(pkg)
-    return rev
-
-
-def get_reverse_dependencies_bfs(target, reverse_graph):
-    """BFS по обратному графу"""
-    result = set()
-    queue = [target]
-    visited = set()
-
-    while queue:
-        pkg = queue.pop(0)
         if pkg in visited:
             continue
         visited.add(pkg)
 
-        for parent in reverse_graph.get(pkg, []):
-            if parent not in result:
-                result.add(parent)
-                queue.append(parent)
+        if filter_substring and filter_substring in pkg:
+            continue
 
-    return result
+        deps = parse_apk_index(index_path, pkg, test_mode=test_mode)
+        graph[pkg] = deps
+
+        if depth < max_depth:
+            for d in deps:
+                if d not in visited:
+                    queue.append((d, depth + 1))
+
+    return graph
 
 
+# -----------------------------
+#  ЭТАП 4 — Обратные зависимости
+# -----------------------------
 
+def get_reverse_dependencies(graph):
+    """Строит обратный граф зависимостей."""
+    reverse_graph = defaultdict(list)
+
+    for pkg, deps in graph.items():
+        for d in deps:
+            reverse_graph[d].append(pkg)
+
+    return reverse_graph
+
+
+def print_reverse_deps(reverse_graph, target):
+    """Печать прямых обратных зависимостей."""
+    print(f"\nОбратные зависимости для '{target}':")
+    if target not in reverse_graph or not reverse_graph[target]:
+        print("  Нет пакетов, которые зависят от этого.")
+        return
+
+    for pkg in reverse_graph[target]:
+        print(f"  - {pkg}")
+
+
+# -----------------------------
+# MAIN
+# -----------------------------
 
 def main():
     try:
@@ -169,47 +186,35 @@ def main():
             print(f"{key} = {value}")
         print()
 
-        is_test = config["repo_mode"] == "test"
+        test_mode = config["repo_mode"] == "test"
 
-        if is_test:
-            print("Тестовый режим: загрузка тестового репозитория...")
-            load_test_repo_graph(config["repo_path"])
-            index_path = None
-        else:
-            print("Получение APKINDEX...")
-            index_path = download_apk_index(config["repo_path"], config["repo_mode"])
+        print("Получение APKINDEX...")
+        index_path = download_apk_index(config["repo_path"], config["repo_mode"])
 
+        # ------ Этап 2 ------
         print(f"\nПрямые зависимости '{config['package_name']}':")
-        if is_test:
-            deps = TEST_REPO.get(config["package_name"], [])
-        else:
-            deps = parse_apk_index(index_path, config["package_name"])
-
-        for d in deps:
+        direct = parse_apk_index(index_path, config["package_name"], test_mode)
+        for d in direct:
             print(f"  - {d}")
 
-        print("\nПостроение полного графа зависимостей (BFS)...")
-        full_graph = get_all_dependencies_bfs(
+        # ------ Этап 3 ------
+        print("\nПостроение графа зависимостей (BFS)...")
+        graph = get_all_dependencies_bfs(
             config["package_name"],
             index_path,
             config["max_depth"],
             config["filter_substring"],
-            is_test
+            test_mode
         )
 
-        print("\nПолный граф зависимостей:")
-        for pkg, deps in full_graph.items():
-            print(f"{pkg}: {', '.join(deps) if deps else '(нет deps)'}")
+        print("\nГраф зависимостей (пакет → deps):")
+        for pkg, deps in graph.items():
+            print(f"{pkg}: {deps}")
 
-        print("\n==== ОБРАТНЫЕ ЗАВИСИМОСТИ ====")
-        rev = build_reverse_graph(full_graph)
-        reverse_deps = get_reverse_dependencies_bfs(config["package_name"], rev)
-
-        if reverse_deps:
-            for p in reverse_deps:
-                print(f"{p} зависит от {config['package_name']}")
-        else:
-            print("Нет пакетов, которые зависят от данного.")
+        # ------ Этап 4 ------
+        print("\nПоиск обратных зависимостей...")
+        rev = get_reverse_dependencies(graph)
+        print_reverse_deps(rev, config["package_name"])
 
     except Exception as e:
         print(f"Ошибка: {e}")

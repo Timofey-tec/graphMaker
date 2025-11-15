@@ -4518,35 +4518,35 @@ m:Francesco Colista <fcolista@alpinelinux.org>
 t:1673711411
 c:5061d123e9424e9c8e08db41eb8e30a5dff2adf2
 
-C:Q1WJ36CH/KsHqsCl2PFpgUJPoy50k=
+C:Q1VUhyFbEwuoG8zo9BGks6qRE/Kk4=
 P:arm-trusted-firmware
-V:2.12.7-r0
+V:2.12.8-r0
 A:x86_64
-S:1504
+S:1500
 I:1
 T:ARM Trusted Firmware-A (TF-A)
 U:https://github.com/ARM-software/arm-trusted-firmware
 L:BSD-3-Clause
 o:arm-trusted-firmware
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1761006871
-c:47a00299230f80511258f33644a3ed2826a18071
+t:1762598418
+c:e08d5ba2adff4e2c2f386121f2fee2287722934f
 
-C:Q1s9V3ta3bFy/taVTCNDe5iYni00c=
+C:Q1/cRjJhImvO8cIILuTkK3baa9swQ=
 P:arm-trusted-firmware-tools
-V:2.12.7-r0
+V:2.12.8-r0
 A:x86_64
-S:31209
+S:31207
 I:90304
 T:ARM Trusted Firmware-A (TF-A) (tools)
 U:https://github.com/ARM-software/arm-trusted-firmware
 L:BSD-3-Clause
 o:arm-trusted-firmware
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1761006871
-c:47a00299230f80511258f33644a3ed2826a18071
+t:1762598418
+c:e08d5ba2adff4e2c2f386121f2fee2287722934f
 D:so:libc.musl-x86_64.so.1 so:libcrypto.so.3
-p:cmd:cert_create=2.12.7-r0 cmd:fiptool=2.12.7-r0
+p:cmd:cert_create=2.12.8-r0 cmd:fiptool=2.12.8-r0
 
 C:Q1PG5/jDzs9gzoz3VNEfj2tmEeFys=
 P:arpon
@@ -22114,51 +22114,51 @@ t:1745399988
 c:7b73a969597bbda1187a5dd1486cdd67ec711eb9
 i:docs gzip=1.14-r1
 
-C:Q1JFO/lKFEHCTE3NhL9v2v/upMMqY=
+C:Q1ThWGorXTG+EBto9tGu+sUHs/TPI=
 P:haproxy
-V:3.2.7-r0
+V:3.2.8-r0
 A:x86_64
-S:1900014
+S:1901163
 I:4507046
 T:A TCP/HTTP reverse proxy for high availability environments
 U:https://www.haproxy.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:haproxy
 m:Milan P. Stanić <mps@arvanta.net>
-t:1761289888
-c:c9ae4874341c06e11442ccc1bcd5764f55c875ab
+t:1762976852
+c:33629a2479229599b508ff07ea298063ae528fac
 D:/bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:liblua-5.4.so.0 so:libpcre2-8.so.0 so:libssl.so.3 so:libz.so.1
-p:cmd:haproxy=3.2.7-r0
+p:cmd:haproxy=3.2.8-r0
 
-C:Q1NJ3/Y/8WQoANIFpTamfLTg4oWcs=
+C:Q1YnkqM2UcKwgv/hGCTx33ooV4gIA=
 P:haproxy-doc
-V:3.2.7-r0
+V:3.2.8-r0
 A:x86_64
-S:573485
-I:2114427
+S:573917
+I:2116001
 T:A TCP/HTTP reverse proxy for high availability environments (documentation)
 U:https://www.haproxy.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:haproxy
 m:Milan P. Stanić <mps@arvanta.net>
-t:1761289888
-c:c9ae4874341c06e11442ccc1bcd5764f55c875ab
-i:docs haproxy=3.2.7-r0
+t:1762976852
+c:33629a2479229599b508ff07ea298063ae528fac
+i:docs haproxy=3.2.8-r0
 
-C:Q1Zp4VL1AIhM4QLr7o1dVPFQeQ52g=
+C:Q1RiXj3lTwEsqFvVTXBQOlWa3H1Wc=
 P:haproxy-openrc
-V:3.2.7-r0
+V:3.2.8-r0
 A:x86_64
-S:2231
+S:2238
 I:1192
 T:A TCP/HTTP reverse proxy for high availability environments (OpenRC init scripts)
 U:https://www.haproxy.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:haproxy
 m:Milan P. Stanić <mps@arvanta.net>
-t:1761289888
-c:c9ae4874341c06e11442ccc1bcd5764f55c875ab
-i:openrc haproxy=3.2.7-r0
+t:1762976852
+c:33629a2479229599b508ff07ea298063ae528fac
+i:openrc haproxy=3.2.8-r0
 
 C:Q1yq3hjY7VvA5aXm/o5fOJYEtRkyg=
 P:harfbuzz
@@ -27575,37 +27575,37 @@ t:1724159655
 c:7acc98d91eb13636620c648d0932452a3a8b4125
 i:docs ldapvi=1.7-r16
 
-C:Q1l/mlePb4nAhLEIcREbf2RNgC75M=
+C:Q1y7Vab7apYloItibqbm4IXcyVIRQ=
 P:ldb
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:159288
+S:159259
 I:510744
 T:Schema-less, ldap like, API and database
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-util-libs=4.21.4-r4 so:libc.musl-x86_64.so.1 so:liblmdb.so.0 so:libreplace-private-samba.so so:libtalloc.so.2 so:libtdb.so.1 so:libtevent.so.0
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-util-libs=4.21.9-r1 so:libc.musl-x86_64.so.1 so:liblmdb.so.0 so:libreplace-private-samba.so so:libtalloc.so.2 so:libtdb.so.1 so:libtevent.so.0
 p:so:libldb-key-value-private-samba.so=0 so:libldb-mdb-int-private-samba.so=0 so:libldb-tdb-err-map-private-samba.so=0 so:libldb-tdb-int-private-samba.so=0 so:libldb.so.2=2.10.0
 
-C:Q1Nw1Ozy97JkIx0x1yIBiwKTBWAzY=
+C:Q1W7QAKLciqTTTHbWgeE9dCd7pmC4=
 P:ldb-tools
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:24693
+S:24674
 I:117704
 T:Tools to manage LDB files
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:ldb=4.21.4-r4 so:libc.musl-x86_64.so.1 so:libldb.so.2 so:libpopt.so.0 so:libtalloc.so.2
-p:so:libldb-cmdline-private-samba.so=0 cmd:ldbadd=4.21.4-r4 cmd:ldbdel=4.21.4-r4 cmd:ldbedit=4.21.4-r4 cmd:ldbmodify=4.21.4-r4 cmd:ldbrename=4.21.4-r4 cmd:ldbsearch=4.21.4-r4
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:ldb=4.21.9-r1 so:libc.musl-x86_64.so.1 so:libldb.so.2 so:libpopt.so.0 so:libtalloc.so.2
+p:so:libldb-cmdline-private-samba.so=0 cmd:ldbadd=4.21.9-r1 cmd:ldbdel=4.21.9-r1 cmd:ldbedit=4.21.9-r1 cmd:ldbmodify=4.21.9-r1 cmd:ldbrename=4.21.9-r1 cmd:ldbsearch=4.21.9-r1
 
 C:Q1EYBPwBf6PRBxB//0Y0stALp+Um0=
 P:lddtree
@@ -28185,20 +28185,20 @@ c:40760f1909b662e8b9065217452a1782bad3dab1
 D:so:libc.musl-x86_64.so.1
 p:so:libattr.so.1=1.1.2502
 
-C:Q10hdX0Om7klQI7Ma1EGuA1z1DLdM=
+C:Q1aXE20NPrq2LhwwCoiIbRoehakaA=
 P:libauth-samba
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:64396
+S:64414
 I:173920
 T:Samba auth library shared by common-tools, server and clients
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-libs=4.21.4-r4 samba-util-libs=4.21.4-r4 libwbclient=4.21.4-r4 so:libMESSAGING-private-samba.so so:libc.musl-x86_64.so.1 so:libcliauth-private-samba.so so:libcommon-auth-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgse-private-samba.so so:liblibcli-lsa3-private-samba.so so:liblibcli-netlogon3-private-samba.so so:libndr-krb5pac.so.0 so:libndr.so.5 so:libpam.so.0 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-modules-private-samba.so so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb.so.0 so:libsecrets3-private-samba.so so:libsmbconf.so.0 so:libsmbd-shim-private-samba.so so:libtalloc.so.2 so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-tdb-private-samba.so so:libwbclient.so.0
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-libs=4.21.9-r1 samba-util-libs=4.21.9-r1 libwbclient=4.21.9-r1 so:libMESSAGING-private-samba.so so:libc.musl-x86_64.so.1 so:libcliauth-private-samba.so so:libcommon-auth-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgse-private-samba.so so:liblibcli-lsa3-private-samba.so so:liblibcli-netlogon3-private-samba.so so:libndr-krb5pac.so.0 so:libndr.so.5 so:libpam.so.0 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-modules-private-samba.so so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb.so.0 so:libsecrets3-private-samba.so so:libsmbconf.so.0 so:libsmbd-shim-private-samba.so so:libtalloc.so.2 so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-tdb-private-samba.so so:libwbclient.so.0
 p:so:libauth-private-samba.so=0
 
 C:Q1eEcg3/WuG/uDAkNXAh/SttkcJkY=
@@ -29280,9 +29280,9 @@ t:1715080109
 c:1e0aa723fba50417893fe5f6cf72f76d044b8192
 i:docs libeconf=0.6.3-r0
 
-C:Q1MWYizK+WU0uSK923buEJXQLzknM=
+C:Q1AtvojedAOFeTmgWbD1G0jdOVa58=
 P:libecpg
-V:17.6-r0
+V:17.7-r0
 A:x86_64
 S:84416
 I:188368
@@ -29291,28 +29291,28 @@ U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
 D:so:libc.musl-x86_64.so.1 so:libpq.so.5
 p:postgresql-libs so:libecpg.so.6=6.17 so:libpgtypes.so.3=3.17
 
-C:Q1xMSq1luQY6x6ZOgt0AieRbqWHpo=
+C:Q1GOcIeJucawE1fnidZmpUqHwne7E=
 P:libecpg-dev
-V:17.6-r0
+V:17.7-r0
 A:x86_64
-S:313717
+S:313724
 I:1337241
 T:ECPG - Embedded SQL in C (development files)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
-D:libpq-dev=17.6-r0 libecpg=17.6-r0 pc:libpq pkgconfig so:libc.musl-x86_64.so.1
-p:pc:libecpg=17.6 pc:libpgtypes=17.6 cmd:ecpg=17.6-r0
+D:libpq-dev=17.7-r0 libecpg=17.7-r0 pc:libpq pkgconfig so:libc.musl-x86_64.so.1
+p:pc:libecpg=17.7 pc:libpgtypes=17.7 cmd:ecpg=17.7-r0
 
 C:Q1t9DEweADS2blO3cMVTPIxl66NGQ=
 P:libedit
@@ -32371,39 +32371,39 @@ c:8bac74716d06c84627ab02d101fd9d2bafd0a34c
 D:so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libportaudio.so.2 so:libstdc++.so.6
 p:so:libportaudiocpp.so.0=0.0.12
 
-C:Q1KVC8jAcCwHv9HJtRuuLS46/Nzjw=
+C:Q1hkFTxi154m1QpvtKD3up3MrkYZo=
 P:libpq
-V:17.6-r0
+V:17.7-r0
 A:x86_64
-S:144213
+S:144678
 I:329984
 T:PostgreSQL client library
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
 D:so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libssl.so.3
 p:so:libpq.so.5=5.17
 
-C:Q17qZ83T3cBV7Ixd2SUcCZecdn8nQ=
+C:Q1uYuSAJ9S5jhXJLwCB5d1mxQtJJw=
 P:libpq-dev
-V:17.6-r0
+V:17.7-r0
 A:x86_64
-S:616795
-I:1859098
+S:617478
+I:1860784
 T:PostgreSQL client library (development files)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
-D:libpq=17.6-r0 pc:libcrypto pc:libssl pkgconfig so:libc.musl-x86_64.so.1
-p:pc:libpq=17.6 cmd:pg_config=17.6-r0
+D:libpq=17.7-r0 pc:libcrypto pc:libssl pkgconfig so:libc.musl-x86_64.so.1
+p:pc:libpq=17.7 cmd:pg_config=17.7-r0
 
 C:Q1N1qol70asDJ0wHHOlq3Q0xmbJPc=
 P:libproc2
@@ -33160,20 +33160,20 @@ c:e7067b58505a39e90d61d2222cfbe1c67eeab5f4
 D:so:libc.musl-x86_64.so.1
 p:so:libsmartcols.so.1=1.1.0
 
-C:Q19pNyCKO7HI5GEBdA7YzbdxtnZdM=
+C:Q1S6hRXjcF5eOwqjgrzT85FMLuqdE=
 P:libsmbclient
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:61084
+S:61256
 I:165728
 T:The SMB client library
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-libs=4.21.4-r4 samba-util-libs=4.21.4-r4 so:libc.musl-x86_64.so.1 so:libcli-smb-common-private-samba.so so:libdcerpc-samba-private-samba.so so:libgenrand-private-samba.so so:libgse-private-samba.so so:liblibcli-lsa3-private-samba.so so:liblibsmb-private-samba.so so:libmsrpc3-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-security-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsecrets3-private-samba.so so:libsmbconf.so.0 so:libtalloc.so.2 so:libtevent-util.so.0 so:libtevent.so.0
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-libs=4.21.9-r1 samba-util-libs=4.21.9-r1 so:libc.musl-x86_64.so.1 so:libcli-smb-common-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libgenrand-private-samba.so so:libgse-private-samba.so so:liblibcli-lsa3-private-samba.so so:liblibsmb-private-samba.so so:libmsrpc3-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-security-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsecrets3-private-samba.so so:libsmbconf.so.0 so:libtalloc.so.2 so:libtevent-util.so.0 so:libtevent.so.0
 p:so:libsmbclient.so.0=0.8.0
 
 C:Q1dO92M+wOZrVRdXuzT9p6JL7Zj5E=
@@ -34448,19 +34448,19 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1710257622
 c:fc95c59998285564fbcb0bfb2443898c62e10171
 
-C:Q11UcQkrON/hpTiPjKv4wEkIV9bxo=
+C:Q1kKYbWwkY7WlBa2CNLBEiNx+cwyg=
 P:libwbclient
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:29518
+S:29525
 I:71512
 T:Samba winbind client libraries
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
 D:so:libc.musl-x86_64.so.1
 p:so:libwbclient.so.0=0.16
 
@@ -38107,50 +38107,50 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1744877667
 c:7aeec83f1c6bf21c453a05debb215f927eaf5dd2
 
-C:Q1c4y6t8+C8+MFy1mV10xjYfxzpBE=
+C:Q12gao8OugAwf6jX4FGPjWn0GNp2c=
 P:linux-lts
-V:6.12.56-r0
+V:6.12.58-r0
 A:x86_64
-S:127861122
-I:140622851
+S:127613278
+I:140362181
 T:Linux lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761917530
-c:b957d920d1eb80d3391330b7613b36cabf0a556d
+t:1763128602
+c:a0a8992410aba95329dac52f52bc8f5305a8fc3d
 D:initramfs-generator linux-firmware-any
 
-C:Q1M1/c8CtGpuIQMFFiZIf4kj0Wh38=
+C:Q1OKlrRCl5QVrfPpnIAbD9czOZ7jk=
 P:linux-lts-dev
-V:6.12.56-r0
+V:6.12.58-r0
 A:x86_64
-S:19476425
-I:74087113
+S:19480711
+I:74105412
 T:Headers and script for third party modules for lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761917530
-c:b957d920d1eb80d3391330b7613b36cabf0a556d
+t:1763128602
+c:a0a8992410aba95329dac52f52bc8f5305a8fc3d
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libelf.so.1 so:libstdc++.so.6 so:libz.so.1
 
-C:Q1BFemQNEGMjpGNtwxBBYdC8voEFo=
+C:Q1Bz5Y7u86YIgfVTYz18iPXmnhKRM=
 P:linux-lts-doc
-V:6.12.56-r0
+V:6.12.58-r0
 A:x86_64
-S:13568032
-I:49477319
+S:13568212
+I:49477536
 T:Linux lts kernel (documentation)
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761917530
-c:b957d920d1eb80d3391330b7613b36cabf0a556d
-i:docs linux-lts=6.12.56-r0
+t:1763128602
+c:a0a8992410aba95329dac52f52bc8f5305a8fc3d
+i:docs linux-lts=6.12.58-r0
 
 C:Q1Tj/0ckuiY0+jwGk31s6ApHd0UtA=
 P:linux-pam
@@ -38213,34 +38213,34 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1748289885
 c:072d73e00ef00a23919c2a7620056670b04cda2a
 
-C:Q1/qTqONSLW5IyUSIJx3zecr9ROQ0=
+C:Q1tPBwURS9sim5RVx4cWebqSMpmOs=
 P:linux-virt
-V:6.12.56-r0
+V:6.12.58-r0
 A:x86_64
-S:40543752
-I:47250829
+S:40548305
+I:47262982
 T:Linux lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761917530
-c:b957d920d1eb80d3391330b7613b36cabf0a556d
+t:1763128602
+c:a0a8992410aba95329dac52f52bc8f5305a8fc3d
 D:initramfs-generator
 
-C:Q1zWH5KcN8TgB6CKl39TvMlUz4I14=
+C:Q1KNFcNFiUuPDIj6stvdi27S1ZWOM=
 P:linux-virt-dev
-V:6.12.56-r0
+V:6.12.58-r0
 A:x86_64
-S:19097437
-I:72623502
+S:19101782
+I:72641821
 T:Headers and script for third party modules for virt kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761917530
-c:b957d920d1eb80d3391330b7613b36cabf0a556d
+t:1763128602
+c:a0a8992410aba95329dac52f52bc8f5305a8fc3d
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libelf.so.1 so:libstdc++.so.6 so:libz.so.1
 
 C:Q1chdf32pLdWXemIKSo1a5DwybIew=
@@ -55059,19 +55059,19 @@ t:1735923921
 c:8bac74716d06c84627ab02d101fd9d2bafd0a34c
 i:docs pam-pgsql=0.7.3.2-r4
 
-C:Q1K2K0fZlawEb/aZAjYL9h3yfusso=
+C:Q1LEwDMIDvYmITtjvBGoI5ujO/yGw=
 P:pam-winbind
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:31833
+S:31839
 I:67488
 T:PAM module for winbind
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
 D:so:libc.musl-x86_64.so.1 so:libpam.so.0 so:libtalloc.so.2
 
 C:Q1EjGZLGtwmOeo1HGdsL0dpXQaagA=
@@ -67707,228 +67707,228 @@ k:16
 D:postgresql16=16.10-r0 pgtcl so:libc.musl-x86_64.so.1 so:libtcl8.6.so
 p:postgresql-pltcl
 
-C:Q1GI2uaioLjHShBM3VAc6x/58DsJ0=
+C:Q1rzOw3Er0SlE1nfSj2btt910BMgI=
 P:postgresql17
-V:17.6-r0
+V:17.7-r0
 A:x86_64
-S:6220209
-I:15894919
+S:6221024
+I:15903111
 T:A sophisticated object-relational DBMS, version 17
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
 D:postgresql17-client postgresql-common tzdata /bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libicui18n.so.76 so:libicuuc.so.76 so:libldap.so.2 so:liblz4.so.1 so:libpq.so.5 so:libssl.so.3 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
-p:postgresql cmd:pg_ctl cmd:pg_walsummary cmd:initdb cmd:pg_rewind cmd:pg_combinebackup cmd:pg_checksums cmd:pg_test_timing cmd:pg_upgrade cmd:pg_archivecleanup cmd:pg_test_fsync cmd:pg_resetwal cmd:pg_waldump cmd:pg_createsubscriber cmd:postgres cmd:pg_controldata cmd:postgres17=17.6-r0
+p:postgresql cmd:pg_controldata cmd:pg_test_fsync cmd:pg_checksums cmd:pg_combinebackup cmd:initdb cmd:pg_walsummary cmd:pg_archivecleanup cmd:pg_ctl cmd:pg_waldump cmd:postgres cmd:pg_upgrade cmd:pg_rewind cmd:pg_createsubscriber cmd:pg_resetwal cmd:pg_test_timing cmd:postgres17=17.7-r0
 
-C:Q1lIYyyNBNxCc74oER6CRyqMHMACc=
+C:Q1CJA7VyKx8pXYk9TatzQjGXSFL7Q=
 P:postgresql17-client
-V:17.6-r0
+V:17.7-r0
 A:x86_64
-S:1307319
+S:1308001
 I:3141587
 T:PostgreSQL client
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
 D:postgresql-common so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:liblz4.so.1 so:libpq.so.5 so:libreadline.so.8 so:libz.so.1 so:libzstd.so.1
 p:postgresql-client cmd:clusterdb cmd:createdb cmd:createuser cmd:dropdb cmd:dropuser cmd:pg_amcheck cmd:pg_basebackup cmd:pg_dump cmd:pg_dumpall cmd:pg_isready cmd:pg_receivewal cmd:pg_recvlogical cmd:pg_restore cmd:pg_verifybackup cmd:pgbench cmd:psql cmd:reindexdb cmd:vacuumdb
 
-C:Q1FeMg8l3MOZ9nXmij0yUR4jouamY=
+C:Q1oR84a1no0+O1fUsZR4POmVGH7ZM=
 P:postgresql17-contrib
-V:17.6-r0
+V:17.7-r0
 A:x86_64
-S:651713
-I:2187208
+S:652996
+I:2195400
 T:Extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
-D:postgresql17=17.6-r0 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
+D:postgresql17=17.7-r0 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
 p:postgresql-contrib cmd:oid2name cmd:vacuumlo
 
-C:Q1nsuSsmfxifyiYSqCik43PjbQsvE=
+C:Q16cHBXAGlbGoEvCdwe6E/PphrMmo=
 P:postgresql17-contrib-jit
-V:17.6-r0
+V:17.7-r0
 A:x86_64
-S:1435691
-I:2634856
+S:1436427
+I:2635840
 T:Extension modules distributed with PostgreSQL (JIT support)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
-D:postgresql17-contrib=17.6-r0
+D:postgresql17-contrib=17.7-r0
 p:postgresql-contrib-jit
-i:postgresql17-jit postgresql17-contrib=17.6-r0
+i:postgresql17-jit postgresql17-contrib=17.7-r0
 
-C:Q19k14HW6Kh86nnFY/0pwittXY6gc=
+C:Q1xVnBDMpu2UpumTqpxyJ1md6jqJo=
 P:postgresql17-dev
-V:17.6-r0
+V:17.7-r0
 A:x86_64
-S:2160000
-I:8202622
+S:2160311
+I:8203915
 T:A sophisticated object-relational DBMS, version 17 (development files)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
 D:libpq-dev libecpg-dev clang18 icu-dev llvm18 lz4-dev openssl-dev zstd-dev so:libc.musl-x86_64.so.1 so:libpq.so.5
 p:postgresql-dev
 
-C:Q1F2+lWYOshRFm/woA1kDUKPE3B5Q=
+C:Q13N8jWMaRxlcatzxAmnYdVDNiFDM=
 P:postgresql17-doc
-V:17.6-r0
+V:17.7-r0
 A:x86_64
-S:524508
-I:2215814
+S:524517
+I:2216001
 T:A sophisticated object-relational DBMS, version 17 (documentation)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
 p:postgresql-doc
-i:docs postgresql17=17.6-r0
+i:docs postgresql17=17.7-r0
 
-C:Q1oa08Mbal5sXV4jFBU6yqg9VtMWo=
+C:Q133MhBcxSEqgwI1bT3Okdn47N6k8=
 P:postgresql17-jit
-V:17.6-r0
+V:17.7-r0
 A:x86_64
-S:11812692
-I:20879200
+S:11819930
+I:20887152
 T:Just-in-time compilation support for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
-D:postgresql17=17.6-r0 so:libLLVM.so.18.1 so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+D:postgresql17=17.7-r0 so:libLLVM.so.18.1 so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:postgresql-jit
 
-C:Q139YHTfXl6iOUktOfQi7GuZiJO88=
+C:Q1aepE2KG6hsIUCdiW3i+nVbQHBZY=
 P:postgresql17-openrc
-V:17.6-r0
+V:17.7-r0
 A:x86_64
-S:1362
+S:1365
 I:0
 T:A sophisticated object-relational DBMS, version 17 (OpenRC init scripts)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
 D:postgresql-common-openrc
-i:openrc postgresql17=17.6-r0
+i:openrc postgresql17=17.7-r0
 
-C:Q1Z7qDzznGGA/fIB1H5a4xzZvzGDs=
+C:Q1FgeLtbfR21L1pYmy2WlhyXtuK5Q=
 P:postgresql17-plperl
-V:17.6-r0
+V:17.7-r0
 A:x86_64
-S:38577
+S:38575
 I:89277
 T:PL/Perl procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
-D:postgresql17=17.6-r0 so:libc.musl-x86_64.so.1 so:libperl.so
+D:postgresql17=17.7-r0 so:libc.musl-x86_64.so.1 so:libperl.so
 p:postgresql-plperl
 
-C:Q1knf4wiU31B7XJnpRUN4TdcS/LCs=
+C:Q1J7jParunQ7TUOuAVY4NAJ5bjAbE=
 P:postgresql17-plperl-contrib
-V:17.6-r0
+V:17.7-r0
 A:x86_64
-S:6094
+S:6088
 I:15518
 T:PL/Perl extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
-D:postgresql17-plperl=17.6-r0 so:libc.musl-x86_64.so.1 so:libperl.so
+D:postgresql17-plperl=17.7-r0 so:libc.musl-x86_64.so.1 so:libperl.so
 p:postgresql-plperl-contrib
-i:postgresql17-plperl=17.6-r0 postgresql17-contrib=17.6-r0
+i:postgresql17-plperl=17.7-r0 postgresql17-contrib=17.7-r0
 
-C:Q1n9OOw+FojZZoOmy1YJdWrY6w3rI=
+C:Q1yZa+OefLS8oJ2zA5/s+8VD4HLP0=
 P:postgresql17-plpython3
-V:17.6-r0
+V:17.7-r0
 A:x86_64
-S:45832
+S:45801
 I:120552
 T:PL/Python3 procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
-D:postgresql17=17.6-r0 python3 so:libc.musl-x86_64.so.1 so:libpython3.12.so.1.0
+D:postgresql17=17.7-r0 python3 so:libc.musl-x86_64.so.1 so:libpython3.12.so.1.0
 p:postgresql-plpython3
 
-C:Q1njwHDFbExj5qHrX8w9FjEMerwcY=
+C:Q1bob0GnlaoWOeN38QVjemf7+cvXA=
 P:postgresql17-plpython3-contrib
-V:17.6-r0
+V:17.7-r0
 A:x86_64
-S:6824
+S:6826
 I:29469
 T:PL/Python 3 extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
-D:postgresql17-plpython3=17.6-r0 so:libc.musl-x86_64.so.1 so:libpython3.12.so.1.0
+D:postgresql17-plpython3=17.7-r0 so:libc.musl-x86_64.so.1 so:libpython3.12.so.1.0
 p:postgresql-plpython3-contrib
-i:postgresql17-plpython3=17.6-r0 postgresql17-contrib=17.6-r0
+i:postgresql17-plpython3=17.7-r0 postgresql17-contrib=17.7-r0
 
-C:Q10nvwHgY8kv1noPk67t8lSQ1G3IA=
+C:Q1bm3UIUKGTdgEQN1ypxjGfu9tmF0=
 P:postgresql17-pltcl
-V:17.6-r0
+V:17.7-r0
 A:x86_64
-S:24559
+S:24558
 I:60750
 T:PL/Tcl procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1755513206
-c:853c438e5f130aa8b040a440a7dd8cbbc51c0118
+t:1763207833
+c:64f4965b8a7b4674c5b7d7d08187871f397a50c6
 k:17
-D:postgresql17=17.6-r0 pgtcl so:libc.musl-x86_64.so.1 so:libtcl8.6.so
+D:postgresql17=17.7-r0 pgtcl so:libc.musl-x86_64.so.1 so:libtcl8.6.so
 p:postgresql-pltcl
 
 C:Q1WNXypPr/M1R9ciaPRmXAJfAuj6E=
@@ -69950,20 +69950,20 @@ c:746926d5b94733179ef5f59f01f88b7c1b32ddc1
 D:py3-markupsafe python3~3.12
 i:py3-jinja2=3.1.6-r0 pyc
 
-C:Q18Smf8pok+6t1n9fa07zfN7fAEkE=
+C:Q1m7eSX9t2FARn+xWRCnocsgr+e4A=
 P:py3-ldb
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:38354
+S:38353
 I:113184
 T:Python 3 binding for the ldb library
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:ldb=4.21.4-r4 python3~3.12 so:libc.musl-x86_64.so.1 so:libldb.so.2 so:libpython3.12.so.1.0 so:libreplace-private-samba.so so:libtalloc.so.2
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:ldb=4.21.9-r1 python3~3.12 so:libc.musl-x86_64.so.1 so:libldb.so.2 so:libpython3.12.so.1.0 so:libreplace-private-samba.so so:libtalloc.so.2
 p:so:libpyldb-util.cpython-312-x86-64-linux-musl-private-samba.so=0
 
 C:Q1c9JID90ZO2XAC6K8depysRtEyxY=
@@ -71094,21 +71094,21 @@ c:7c7c1b5102bf8253e658478331335b5dcbf7c9f7
 D:python3~3.12
 i:py3-roman-numerals=3.1.0-r0 pyc
 
-C:Q1YEZjmxeyt5jZSyWhlL7l9CC38Ps=
+C:Q1iU97IUjvk8ovoqgyNr8YEISROUo=
 P:py3-samba
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:5048648
-I:24003143
+S:5056618
+I:24021682
 T:Samba python libraries
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-client-libs=4.21.4-r4 samba-common-server-libs=4.21.4-r4 samba-dc-libs=4.21.4-r4 samba-libs=4.21.4-r4 samba-libs-py3=4.21.4-r4 samba-server-libs=4.21.4-r4 samba-util-libs=4.21.4-r4 ldb=4.21.4-r4 py3-tdb python3~3.12 so:libMESSAGING-SEND-private-samba.so so:libMESSAGING-private-samba.so so:libaddns-private-samba.so so:libads-private-samba.so so:libauth-unix-token-private-samba.so so:libauth4-private-samba.so so:libauthkrb5-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-ldap-private-samba.so so:libcli-nbt-private-samba.so so:libcli-smb-common-private-samba.so so:libcliauth-private-samba.so so:libcluster-private-samba.so so:libcmdline-contexts-private-samba.so so:libcmdline-private-samba.so so:libcommon-auth-private-samba.so so:libdb-glue-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libdcerpc-samba4-private-samba.so so:libdcerpc.so.0 so:libdnsserver-common-private-samba.so so:libdsdb-garbage-collect-tombstones-private-samba.so so:libevents-private-samba.so so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgpo-private-samba.so so:libgse-private-samba.so so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:libldb.so.2 so:libldbsamba-private-samba.so so:liblibcli-lsa3-private-samba.so so:liblibcli-netlogon3-private-samba.so so:liblibsmb-private-samba.so so:libmsrpc3-private-samba.so so:libndr-krb5pac.so.0 so:libndr-nbt.so.0 so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libnetif-private-samba.so so:libposix-eadb-private-samba.so so:libpyldb-util.cpython-312-x86-64-linux-musl-private-samba.so so:libpytalloc-util.cpython-312-x86-64-linux-musl.so.2 so:libpython3.12.so.1.0 so:libregistry-private-samba.so so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-net-join.cpython-312-x86-64-linux-musl-private-samba.so so:libsamba-net-private-samba.so so:libsamba-passdb.so.0 so:libsamba-policy.so.0 so:libsamba-python.cpython-312-x86-64-linux-musl-private-samba.so so:libsamba-security-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb-common-private-samba.so so:libsamdb.so.0 so:libscavenge-dns-records-private-samba.so so:libsecrets3-private-samba.so so:libserver-role-private-samba.so so:libsmbconf.so.0 so:libsmbd-base-private-samba.so so:libstable-sort-private-samba.so so:libtalloc.so.2 so:libtdb-wrap-private-samba.so so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-crypt-private-samba.so so:libutil-reg-private-samba.so so:libxattr-tdb-private-samba.so
-p:py3.12:samba=4.21.4-r4
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-client-libs=4.21.9-r1 samba-common-server-libs=4.21.9-r1 samba-dc-libs=4.21.9-r1 samba-libs=4.21.9-r1 samba-libs-py3=4.21.9-r1 samba-server-libs=4.21.9-r1 samba-util-libs=4.21.9-r1 ldb=4.21.9-r1 py3-tdb python3~3.12 so:libMESSAGING-SEND-private-samba.so so:libMESSAGING-private-samba.so so:libaddns-private-samba.so so:libads-private-samba.so so:libauth-unix-token-private-samba.so so:libauth4-private-samba.so so:libauthkrb5-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-ldap-private-samba.so so:libcli-nbt-private-samba.so so:libcli-smb-common-private-samba.so so:libcliauth-private-samba.so so:libcluster-private-samba.so so:libcmdline-contexts-private-samba.so so:libcmdline-private-samba.so so:libcommon-auth-private-samba.so so:libdb-glue-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libdcerpc-samba4-private-samba.so so:libdcerpc.so.0 so:libdnsserver-common-private-samba.so so:libdsdb-garbage-collect-tombstones-private-samba.so so:libevents-private-samba.so so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgpo-private-samba.so so:libgse-private-samba.so so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:libldb.so.2 so:libldbsamba-private-samba.so so:liblibcli-lsa3-private-samba.so so:liblibcli-netlogon3-private-samba.so so:liblibsmb-private-samba.so so:libmsrpc3-private-samba.so so:libndr-krb5pac.so.0 so:libndr-nbt.so.0 so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libnetif-private-samba.so so:libposix-eadb-private-samba.so so:libpyldb-util.cpython-312-x86-64-linux-musl-private-samba.so so:libpytalloc-util.cpython-312-x86-64-linux-musl.so.2 so:libpython3.12.so.1.0 so:libregistry-private-samba.so so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-net-join.cpython-312-x86-64-linux-musl-private-samba.so so:libsamba-net-private-samba.so so:libsamba-passdb.so.0 so:libsamba-policy.so.0 so:libsamba-python.cpython-312-x86-64-linux-musl-private-samba.so so:libsamba-security-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb-common-private-samba.so so:libsamdb.so.0 so:libscavenge-dns-records-private-samba.so so:libsecrets3-private-samba.so so:libserver-role-private-samba.so so:libsmbconf.so.0 so:libsmbd-base-private-samba.so so:libstable-sort-private-samba.so so:libtalloc.so.2 so:libtdb-wrap-private-samba.so so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-crypt-private-samba.so so:libutil-reg-private-samba.so so:libxattr-tdb-private-samba.so
+p:py3.12:samba=4.21.9-r1
 
 C:Q1yD2j8dwdyiZdm7kk+0va9Z0Q7mY=
 P:py3-sanlock
@@ -71742,37 +71742,37 @@ c:3b5e1e4e8ee39b1e6c475815ab3d83534d8ace87
 D:python3 python3~3.12
 i:py3-urllib3=1.26.20-r0 pyc
 
-C:Q1P4Zo+ErxeAwfxtLjI9Sof7Vjxro=
+C:Q1+UI5i300a7L8juqknhS95/eymsA=
 P:py3-vici
-V:5.9.14-r0
+V:5.9.14-r1
 A:x86_64
-S:8829
+S:8820
 I:28264
 T:Native Python interface for strongSwan's VICI protocol
 U:https://www.strongswan.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:strongswan
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1732550994
-c:d374351ea944b7acb6d3bdd5607094a194e10ff0
+t:1762427054
+c:2fae191b2a8a99d6e183e89c4796c2be2513e224
 D:iproute2 python3~3.12
-p:py3.12:vici=5.9.14-r0
+p:py3.12:vici=5.9.14-r1
 
-C:Q1W+TEuCbF6Ej1HOIfI2Bb8+cbQHI=
+C:Q1IKrx6/YSapADHSqMmXExUCnReJI=
 P:py3-vici-pyc
-V:5.9.14-r0
+V:5.9.14-r1
 A:x86_64
-S:14708
+S:14704
 I:36292
 T:Precompiled Python bytecode for py3-vici
 U:https://www.strongswan.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:strongswan
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1732550994
-c:d374351ea944b7acb6d3bdd5607094a194e10ff0
+t:1762427054
+c:2fae191b2a8a99d6e183e89c4796c2be2513e224
 D:iproute2 python3~3.12
-i:py3-vici=5.9.14-r0 pyc
+i:py3-vici=5.9.14-r1 pyc
 
 C:Q1YqK5qW1nIB2znh5TptT5ysH/Yj0=
 P:py3-wcwidth
@@ -75972,165 +75972,165 @@ m:Laurent Bercot <ska-devel@skarnet.org>
 t:1746593427
 c:a0a45ce74780c885391060813b5547818afe9285
 
-C:Q1ARoyO3TiantjnEBPaGydJWJpP6M=
+C:Q1c4FbEq7J9ECCkHgcz2rTEiWGceQ=
 P:samba
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:1333
+S:1329
 I:0
 T:Tools to access a server's filespace and printers via SMB
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-server=4.21.4-r4 samba-client=4.21.4-r4 samba-common-tools=4.21.4-r4
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-server=4.21.9-r1 samba-client=4.21.9-r1 samba-common-tools=4.21.9-r1
 
-C:Q1Uyu5PCRZWQvWhPExxOl0nJaqLMg=
+C:Q1GkbrUthF0dIk4XxSWHVy+C84fyo=
 P:samba-client
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:743617
+S:743832
 I:2592252
 T:Samba client programs
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-client-libs=4.21.4-r4 samba-common=4.21.4-r4 samba-libs=4.21.4-r4 samba-util-libs=4.21.4-r4 ldb=4.21.4-r4 libsmbclient=4.21.4-r4 libwbclient=4.21.4-r4 so:libCHARSET3-private-samba.so so:libaddns-private-samba.so so:libads-private-samba.so so:libarchive.so.13 so:libc.musl-x86_64.so.1 so:libcli-cldap-private-samba.so so:libcli-ldap-private-samba.so so:libcli-smb-common-private-samba.so so:libcli-spoolss-private-samba.so so:libcliauth-private-samba.so so:libcmdline-contexts-private-samba.so so:libcmdline-private-samba.so so:libcom-err-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libevents-private-samba.so so:libformw.so.6 so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:libldb.so.2 so:libldbsamba-private-samba.so so:liblibcli-lsa3-private-samba.so so:liblibcli-netlogon3-private-samba.so so:liblibsmb-private-samba.so so:libmscat-private-samba.so so:libmsrpc3-private-samba.so so:libncursesw.so.6 so:libndr-nbt.so.0 so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libpanelw.so.6 so:libpopt.so.0 so:libreadline.so.8 so:libregistry-private-samba.so so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb-common-private-samba.so so:libsecrets3-private-samba.so so:libserver-role-private-samba.so so:libsmbclient-raw-private-samba.so so:libsmbclient.so.0 so:libsmbconf.so.0 so:libsocket-blocking-private-samba.so so:libtalloc.so.2 so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-reg-private-samba.so so:libutil-tdb-private-samba.so
-p:cmd:cifsdd=4.21.4-r4 cmd:dbwrap_tool=4.21.4-r4 cmd:dumpmscat=4.21.4-r4 cmd:mdsearch=4.21.4-r4 cmd:mvxattr=4.21.4-r4 cmd:nmblookup=4.21.4-r4 cmd:oLschema2ldif=4.21.4-r4 cmd:regdiff=4.21.4-r4 cmd:regpatch=4.21.4-r4 cmd:regshell=4.21.4-r4 cmd:regtree=4.21.4-r4 cmd:rpcclient=4.21.4-r4 cmd:samba-regedit=4.21.4-r4 cmd:sharesec=4.21.4-r4 cmd:smbcacls=4.21.4-r4 cmd:smbclient=4.21.4-r4 cmd:smbcquotas=4.21.4-r4 cmd:smbget=4.21.4-r4 cmd:smbprint=4.21.4-r4 cmd:smbspool=4.21.4-r4 cmd:smbtar=4.21.4-r4 cmd:smbtree=4.21.4-r4 cmd:wspsearch=4.21.4-r4
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-client-libs=4.21.9-r1 samba-common=4.21.9-r1 samba-libs=4.21.9-r1 samba-util-libs=4.21.9-r1 ldb=4.21.9-r1 libsmbclient=4.21.9-r1 libwbclient=4.21.9-r1 so:libCHARSET3-private-samba.so so:libaddns-private-samba.so so:libads-private-samba.so so:libarchive.so.13 so:libc.musl-x86_64.so.1 so:libcli-cldap-private-samba.so so:libcli-ldap-private-samba.so so:libcli-smb-common-private-samba.so so:libcli-spoolss-private-samba.so so:libcliauth-private-samba.so so:libcmdline-contexts-private-samba.so so:libcmdline-private-samba.so so:libcom-err-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libevents-private-samba.so so:libformw.so.6 so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:libldb.so.2 so:libldbsamba-private-samba.so so:liblibcli-lsa3-private-samba.so so:liblibcli-netlogon3-private-samba.so so:liblibsmb-private-samba.so so:libmscat-private-samba.so so:libmsrpc3-private-samba.so so:libncursesw.so.6 so:libndr-nbt.so.0 so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libpanelw.so.6 so:libpopt.so.0 so:libreadline.so.8 so:libregistry-private-samba.so so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb-common-private-samba.so so:libsecrets3-private-samba.so so:libserver-role-private-samba.so so:libsmbclient-raw-private-samba.so so:libsmbclient.so.0 so:libsmbconf.so.0 so:libsocket-blocking-private-samba.so so:libtalloc.so.2 so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-reg-private-samba.so so:libutil-tdb-private-samba.so
+p:cmd:cifsdd=4.21.9-r1 cmd:dbwrap_tool=4.21.9-r1 cmd:dumpmscat=4.21.9-r1 cmd:mdsearch=4.21.9-r1 cmd:mvxattr=4.21.9-r1 cmd:nmblookup=4.21.9-r1 cmd:oLschema2ldif=4.21.9-r1 cmd:regdiff=4.21.9-r1 cmd:regpatch=4.21.9-r1 cmd:regshell=4.21.9-r1 cmd:regtree=4.21.9-r1 cmd:rpcclient=4.21.9-r1 cmd:samba-regedit=4.21.9-r1 cmd:sharesec=4.21.9-r1 cmd:smbcacls=4.21.9-r1 cmd:smbclient=4.21.9-r1 cmd:smbcquotas=4.21.9-r1 cmd:smbget=4.21.9-r1 cmd:smbprint=4.21.9-r1 cmd:smbspool=4.21.9-r1 cmd:smbtar=4.21.9-r1 cmd:smbtree=4.21.9-r1 cmd:wspsearch=4.21.9-r1
 
-C:Q1DKV1gd0o4RDZUeMn8TpK2vyPKp0=
+C:Q1cVU2+BhVm9mdwpBODltZ2WAhw8c=
 P:samba-client-libs
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:381399
-I:1134352
+S:381840
+I:1130256
 T:Samba libraries used by clients
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-libs=4.21.4-r4 samba-util-libs=4.21.4-r4 ldb=4.21.4-r4 libauth-samba=4.21.4-r4 so:libMESSAGING-SEND-private-samba.so so:libMESSAGING-private-samba.so so:libaddns-private-samba.so so:libads-private-samba.so so:libasn1util-private-samba.so so:libauth-private-samba.so so:libauthkrb5-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-cldap-private-samba.so so:libcli-ldap-common-private-samba.so so:libcli-nbt-private-samba.so so:libcli-smb-common-private-samba.so so:libcli-spoolss-private-samba.so so:libcliauth-private-samba.so so:libclidns-private-samba.so so:libcommon-auth-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-pkt-auth-private-samba.so so:libdcerpc-samba-private-samba.so so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgse-private-samba.so so:libinterfaces-private-samba.so so:libldb.so.2 so:libldbsamba-private-samba.so so:liblibsmb-private-samba.so so:libndr-nbt.so.0 so:libndr-samba-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-modules-private-samba.so so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb-common-private-samba.so so:libsamdb.so.0 so:libsmb-transport-private-samba.so so:libsmbconf.so.0 so:libsocket-blocking-private-samba.so so:libsys-rw-private-samba.so so:libtalloc.so.2 so:libtasn1.so.6 so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-reg-private-samba.so
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-libs=4.21.9-r1 samba-util-libs=4.21.9-r1 ldb=4.21.9-r1 libauth-samba=4.21.9-r1 so:libMESSAGING-SEND-private-samba.so so:libMESSAGING-private-samba.so so:libaddns-private-samba.so so:libads-private-samba.so so:libasn1util-private-samba.so so:libauth-private-samba.so so:libauthkrb5-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-cldap-private-samba.so so:libcli-ldap-common-private-samba.so so:libcli-nbt-private-samba.so so:libcli-smb-common-private-samba.so so:libcli-spoolss-private-samba.so so:libcliauth-private-samba.so so:libclidns-private-samba.so so:libcommon-auth-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-pkt-auth-private-samba.so so:libdcerpc-samba-private-samba.so so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgse-private-samba.so so:libinterfaces-private-samba.so so:libldb.so.2 so:libldbsamba-private-samba.so so:liblibsmb-private-samba.so so:libndr-nbt.so.0 so:libndr-samba-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-modules-private-samba.so so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb-common-private-samba.so so:libsamdb.so.0 so:libsmb-transport-private-samba.so so:libsmbconf.so.0 so:libsocket-blocking-private-samba.so so:libsys-rw-private-samba.so so:libtalloc.so.2 so:libtasn1.so.6 so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-reg-private-samba.so
 p:so:libad-claims-private-samba.so=0 so:libauthn-policy-util-private-samba.so=0 so:libcli-ldap-private-samba.so=0 so:libcmdline-contexts-private-samba.so=0 so:libdcerpc.so.0=0.0.1 so:libdsdb-garbage-collect-tombstones-private-samba.so=0 so:libdsdb-module-private-samba.so=0 so:libgpo-private-samba.so=0 so:libhttp-private-samba.so=0 so:libmscat-private-samba.so=0 so:libnetif-private-samba.so=0 so:libprinter-driver-private-samba.so=0 so:libregistry-private-samba.so=0 so:libsmbclient-raw-private-samba.so=0
 
-C:Q1hytCCv3UzTj9vnb/iT1utQGmpvE=
+C:Q1B+76KF5OOgA7zcmYFwWVaAguf28=
 P:samba-common
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:5504
+S:5498
 I:8557
 T:Samba common files for both client an servers
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
 
-C:Q1i/FDwpZDaGK4NEe4lxIzo278KWg=
+C:Q11VFMKtu0sMm5Tf+z8nUp01UQczc=
 P:samba-common-server-libs
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:1043029
-I:2837312
+S:1045010
+I:2841408
 T:Samba libraries shared by common-tools and servers
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-libs=4.21.4-r4 samba-util-libs=4.21.4-r4 ldb=4.21.4-r4 libauth-samba=4.21.4-r4 so:libCHARSET3-private-samba.so so:libacl.so.1 so:libads-private-samba.so so:libasn1util-private-samba.so so:libauth-private-samba.so so:libauthkrb5-private-samba.so so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-x86_64.so.1 so:libcli-smb-common-private-samba.so so:libcli-spoolss-private-samba.so so:libcliauth-private-samba.so so:libcom-err-private-samba.so so:libcommon-auth-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-pkt-auth-private-samba.so so:libdcerpc-samba-private-samba.so so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgse-private-samba.so so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:liblber.so.2 so:libldap.so.2 so:libldb.so.2 so:liblibcli-lsa3-private-samba.so so:liblibcli-netlogon3-private-samba.so so:liblibsmb-private-samba.so so:libmessages-dgm-private-samba.so so:libmsrpc3-private-samba.so so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libreplace-private-samba.so so:libsamba-cluster-support-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-modules-private-samba.so so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb-common-private-samba.so so:libsecrets3-private-samba.so so:libserver-id-db-private-samba.so so:libsmbconf.so.0 so:libsmbd-shim-private-samba.so so:libsmbldap.so.2 so:libsocket-blocking-private-samba.so so:libsys-rw-private-samba.so so:libtalloc.so.2 so:libtdb-wrap-private-samba.so so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libtime-basic-private-samba.so so:libutil-reg-private-samba.so so:libutil-setid-private-samba.so so:libutil-tdb-private-samba.so
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-libs=4.21.9-r1 samba-util-libs=4.21.9-r1 ldb=4.21.9-r1 libauth-samba=4.21.9-r1 so:libCHARSET3-private-samba.so so:libacl.so.1 so:libads-private-samba.so so:libasn1util-private-samba.so so:libauth-private-samba.so so:libauthkrb5-private-samba.so so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-x86_64.so.1 so:libcli-smb-common-private-samba.so so:libcli-spoolss-private-samba.so so:libcliauth-private-samba.so so:libcom-err-private-samba.so so:libcommon-auth-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-pkt-auth-private-samba.so so:libdcerpc-samba-private-samba.so so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgse-private-samba.so so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:liblber.so.2 so:libldap.so.2 so:libldb.so.2 so:liblibcli-lsa3-private-samba.so so:liblibcli-netlogon3-private-samba.so so:liblibsmb-private-samba.so so:libmessages-dgm-private-samba.so so:libmsrpc3-private-samba.so so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libreplace-private-samba.so so:libsamba-cluster-support-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-modules-private-samba.so so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb-common-private-samba.so so:libsecrets3-private-samba.so so:libserver-id-db-private-samba.so so:libsmbconf.so.0 so:libsmbd-shim-private-samba.so so:libsmbldap.so.2 so:libsocket-blocking-private-samba.so so:libsys-rw-private-samba.so so:libtalloc.so.2 so:libtdb-wrap-private-samba.so so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libtime-basic-private-samba.so so:libutil-reg-private-samba.so so:libutil-setid-private-samba.so so:libutil-tdb-private-samba.so
 p:so:libRPC-SERVER-LOOP-private-samba.so=0 so:libdcerpc-server-core.so.0=0.0.1 so:libdfs-server-ad-private-samba.so=0 so:libnetapi.so.1=1.0.0 so:libprinting-migrate-private-samba.so=0 so:libsmbd-base-private-samba.so=0 so:libsmbldaphelper-private-samba.so=0
 
-C:Q1FVX6wdrgKfPiCWLiLXJ2PWJ4CBg=
+C:Q1t+S1feM3Z+P22/PnRBSsT5I9joI=
 P:samba-common-tools
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:488620
+S:488522
 I:1346376
 T:Tools for Samba servers and clients
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-client-libs=4.21.4-r4 samba-common-server-libs=4.21.4-r4 samba-libs=4.21.4-r4 samba-util-libs=4.21.4-r4 libauth-samba=4.21.4-r4 libwbclient=4.21.4-r4 so:libCHARSET3-private-samba.so so:libaddns-private-samba.so so:libads-private-samba.so so:libauth-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-smb-common-private-samba.so so:libcli-spoolss-private-samba.so so:libcliauth-private-samba.so so:libcmdline-contexts-private-samba.so so:libcmdline-private-samba.so so:libcom-err-private-samba.so so:libcommon-auth-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgpo-private-samba.so so:libgse-private-samba.so so:libjansson.so.4 so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:libldap.so.2 so:liblibcli-lsa3-private-samba.so so:liblibsmb-private-samba.so so:libmsrpc3-private-samba.so so:libndr-krb5pac.so.0 so:libndr-samba-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libnetapi.so.1 so:libpopt.so.0 so:libprinting-migrate-private-samba.so so:libreadline.so.8 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-modules-private-samba.so so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb.so.0 so:libsecrets3-private-samba.so so:libserver-id-db-private-samba.so so:libserver-role-private-samba.so so:libsmbconf.so.0 so:libsmbd-base-private-samba.so so:libsmbd-shim-private-samba.so so:libsmbldap.so.2 so:libtalloc.so.2 so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libtime-basic-private-samba.so so:libutil-reg-private-samba.so so:libutil-tdb-private-samba.so so:libwbclient.so.0
-p:so:libgpext-private-samba.so=0 so:libnet-keytab-private-samba.so=0 cmd:net=4.21.4-r4 cmd:pdbedit=4.21.4-r4 cmd:profiles=4.21.4-r4 cmd:samba-log-parser=4.21.4-r4 cmd:smbcontrol=4.21.4-r4 cmd:smbpasswd=4.21.4-r4 cmd:testparm=4.21.4-r4
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-client-libs=4.21.9-r1 samba-common-server-libs=4.21.9-r1 samba-libs=4.21.9-r1 samba-util-libs=4.21.9-r1 libauth-samba=4.21.9-r1 libwbclient=4.21.9-r1 so:libCHARSET3-private-samba.so so:libaddns-private-samba.so so:libads-private-samba.so so:libauth-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-smb-common-private-samba.so so:libcli-spoolss-private-samba.so so:libcliauth-private-samba.so so:libcmdline-contexts-private-samba.so so:libcmdline-private-samba.so so:libcom-err-private-samba.so so:libcommon-auth-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgpo-private-samba.so so:libgse-private-samba.so so:libjansson.so.4 so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:libldap.so.2 so:liblibcli-lsa3-private-samba.so so:liblibsmb-private-samba.so so:libmsrpc3-private-samba.so so:libndr-krb5pac.so.0 so:libndr-samba-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libnetapi.so.1 so:libpopt.so.0 so:libprinting-migrate-private-samba.so so:libreadline.so.8 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-modules-private-samba.so so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb.so.0 so:libsecrets3-private-samba.so so:libserver-id-db-private-samba.so so:libserver-role-private-samba.so so:libsmbconf.so.0 so:libsmbd-base-private-samba.so so:libsmbd-shim-private-samba.so so:libsmbldap.so.2 so:libtalloc.so.2 so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libtime-basic-private-samba.so so:libutil-reg-private-samba.so so:libutil-tdb-private-samba.so so:libwbclient.so.0
+p:so:libgpext-private-samba.so=0 so:libnet-keytab-private-samba.so=0 cmd:net=4.21.9-r1 cmd:pdbedit=4.21.9-r1 cmd:profiles=4.21.9-r1 cmd:samba-log-parser=4.21.9-r1 cmd:smbcontrol=4.21.9-r1 cmd:smbpasswd=4.21.9-r1 cmd:testparm=4.21.9-r1
 
-C:Q1/42FS9pJAhQfCFe0F7vKIyjMHHU=
+C:Q1P8H4LYBzGpKQSVoPLz412k52guA=
 P:samba-dc
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:2508716
+S:2508738
 I:20011142
 T:Samba AD Domain Controller
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-client-libs=4.21.4-r4 samba-common=4.21.4-r4 samba-common-server-libs=4.21.4-r4 samba-common-tools=4.21.4-r4 samba-dc-libs=4.21.4-r4 samba-libs=4.21.4-r4 samba-server=4.21.4-r4 samba-util-libs=4.21.4-r4 samba-winbind=4.21.4-r4 ldb=4.21.4-r4 libauth-samba=4.21.4-r4 py3-samba=4.21.4-r4 py3-dnspython py3-markdown tdb so:libMESSAGING-SEND-private-samba.so so:libMESSAGING-private-samba.so so:libasn1util-private-samba.so so:libauth-private-samba.so so:libauth4-private-samba.so so:libauthkrb5-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-cldap-private-samba.so so:libcli-ldap-common-private-samba.so so:libcli-ldap-private-samba.so so:libcliauth-private-samba.so so:libcluster-private-samba.so so:libcmdline-private-samba.so so:libcom-err-private-samba.so so:libcommon-auth-private-samba.so so:libdb-glue-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdsdb-module-private-samba.so so:libevents-private-samba.so so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:liblber.so.2 so:libldap.so.2 so:libldb.so.2 so:libldbsamba-private-samba.so so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr.so.5 so:libnetif-private-samba.so so:libpopt.so.0 so:libposix-eadb-private-samba.so so:libprocess-model-private-samba.so so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamdb-common-private-samba.so so:libsamdb.so.0 so:libsecrets3-private-samba.so so:libservice-private-samba.so so:libsmbconf.so.0 so:libsmbd-base-private-samba.so so:libsmbd-shim-private-samba.so so:libsocket-blocking-private-samba.so so:libtalloc.so.2 so:libtdb-wrap-private-samba.so so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-crypt-private-samba.so so:libutil-tdb-private-samba.so
-p:so:libsmbpasswdparser-private-samba.so=0 cmd:samba-gpupdate=4.21.4-r4 cmd:samba-tool=4.21.4-r4 cmd:samba=4.21.4-r4 cmd:samba_dnsupdate=4.21.4-r4 cmd:samba_downgrade_db=4.21.4-r4 cmd:samba_kcc=4.21.4-r4 cmd:samba_spnupdate=4.21.4-r4 cmd:samba_upgradedns=4.21.4-r4
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-client-libs=4.21.9-r1 samba-common=4.21.9-r1 samba-common-server-libs=4.21.9-r1 samba-common-tools=4.21.9-r1 samba-dc-libs=4.21.9-r1 samba-libs=4.21.9-r1 samba-server=4.21.9-r1 samba-util-libs=4.21.9-r1 samba-winbind=4.21.9-r1 ldb=4.21.9-r1 libauth-samba=4.21.9-r1 py3-samba=4.21.9-r1 py3-dnspython py3-markdown tdb so:libMESSAGING-SEND-private-samba.so so:libMESSAGING-private-samba.so so:libasn1util-private-samba.so so:libauth-private-samba.so so:libauth4-private-samba.so so:libauthkrb5-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-cldap-private-samba.so so:libcli-ldap-common-private-samba.so so:libcli-ldap-private-samba.so so:libcliauth-private-samba.so so:libcluster-private-samba.so so:libcmdline-private-samba.so so:libcom-err-private-samba.so so:libcommon-auth-private-samba.so so:libdb-glue-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdsdb-module-private-samba.so so:libevents-private-samba.so so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:liblber.so.2 so:libldap.so.2 so:libldb.so.2 so:libldbsamba-private-samba.so so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr.so.5 so:libnetif-private-samba.so so:libpopt.so.0 so:libposix-eadb-private-samba.so so:libprocess-model-private-samba.so so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamdb-common-private-samba.so so:libsamdb.so.0 so:libsecrets3-private-samba.so so:libservice-private-samba.so so:libsmbconf.so.0 so:libsmbd-base-private-samba.so so:libsmbd-shim-private-samba.so so:libsocket-blocking-private-samba.so so:libtalloc.so.2 so:libtdb-wrap-private-samba.so so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-crypt-private-samba.so so:libutil-tdb-private-samba.so
+p:so:libsmbpasswdparser-private-samba.so=0 cmd:samba-gpupdate=4.21.9-r1 cmd:samba-tool=4.21.9-r1 cmd:samba=4.21.9-r1 cmd:samba_dnsupdate=4.21.9-r1 cmd:samba_downgrade_db=4.21.9-r1 cmd:samba_kcc=4.21.9-r1 cmd:samba_spnupdate=4.21.9-r1 cmd:samba_upgradedns=4.21.9-r1
 
-C:Q1d3DQaCi/ufSjkttYv2Y9Hpwxkbc=
+C:Q1+OYg3Ma/l7O4lSjLOi4jQCBGPxc=
 P:samba-dc-libs
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:984619
+S:985361
 I:3002544
 T:Samba AD Domain Controller libraries
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-client-libs=4.21.4-r4 samba-common-server-libs=4.21.4-r4 samba-libs=4.21.4-r4 samba-server-libs=4.21.4-r4 samba-util-libs=4.21.4-r4 ldb=4.21.4-r4 libwbclient=4.21.4-r4 so:libCHARSET3-private-samba.so so:libMESSAGING-SEND-private-samba.so so:libMESSAGING-private-samba.so so:libad-claims-private-samba.so so:libaddns-private-samba.so so:libasn1-private-samba.so so:libasn1util-private-samba.so so:libauthkrb5-private-samba.so so:libauthn-policy-util-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-cldap-private-samba.so so:libcli-ldap-common-private-samba.so so:libcli-ldap-private-samba.so so:libcli-nbt-private-samba.so so:libcliauth-private-samba.so so:libclidns-private-samba.so so:libcluster-private-samba.so so:libcom-err-private-samba.so so:libcommon-auth-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libdcerpc-samba4-private-samba.so so:libdcerpc-server-core.so.0 so:libdcerpc.so.0 so:libdsdb-garbage-collect-tombstones-private-samba.so so:libdsdb-module-private-samba.so so:libevents-private-samba.so so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgssapi-private-samba.so so:libhcrypto-private-samba.so so:libheimbase-private-samba.so so:libhx509-private-samba.so so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:libldb.so.2 so:libldbsamba-private-samba.so so:libmessages-dgm-private-samba.so so:libndr-krb5pac.so.0 so:libndr-nbt.so.0 so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libnetif-private-samba.so so:libnpa-tstream-private-samba.so so:libpopt.so.0 so:libreplace-private-samba.so so:libroken-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-modules-private-samba.so so:libsamba-net-private-samba.so so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb-common-private-samba.so so:libsamdb.so.0 so:libserver-id-db-private-samba.so so:libsmb-transport-private-samba.so so:libsmbclient-raw-private-samba.so so:libsmbconf.so.0 so:libsocket-blocking-private-samba.so so:libtalloc.so.2 so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libtime-basic-private-samba.so so:libwbclient.so.0
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-client-libs=4.21.9-r1 samba-common-server-libs=4.21.9-r1 samba-libs=4.21.9-r1 samba-server-libs=4.21.9-r1 samba-util-libs=4.21.9-r1 ldb=4.21.9-r1 libwbclient=4.21.9-r1 so:libCHARSET3-private-samba.so so:libMESSAGING-SEND-private-samba.so so:libMESSAGING-private-samba.so so:libad-claims-private-samba.so so:libaddns-private-samba.so so:libasn1-private-samba.so so:libasn1util-private-samba.so so:libauthkrb5-private-samba.so so:libauthn-policy-util-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-cldap-private-samba.so so:libcli-ldap-common-private-samba.so so:libcli-ldap-private-samba.so so:libcli-nbt-private-samba.so so:libcliauth-private-samba.so so:libclidns-private-samba.so so:libcluster-private-samba.so so:libcom-err-private-samba.so so:libcommon-auth-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libdcerpc-samba4-private-samba.so so:libdcerpc-server-core.so.0 so:libdcerpc.so.0 so:libdsdb-garbage-collect-tombstones-private-samba.so so:libdsdb-module-private-samba.so so:libevents-private-samba.so so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgssapi-private-samba.so so:libhcrypto-private-samba.so so:libheimbase-private-samba.so so:libhx509-private-samba.so so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:libldb.so.2 so:libldbsamba-private-samba.so so:libmessages-dgm-private-samba.so so:libndr-krb5pac.so.0 so:libndr-nbt.so.0 so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libnetif-private-samba.so so:libnpa-tstream-private-samba.so so:libpopt.so.0 so:libreplace-private-samba.so so:libroken-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-modules-private-samba.so so:libsamba-net-private-samba.so so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb-common-private-samba.so so:libsamdb.so.0 so:libserver-id-db-private-samba.so so:libsmb-transport-private-samba.so so:libsmbclient-raw-private-samba.so so:libsmbconf.so.0 so:libsocket-blocking-private-samba.so so:libtalloc.so.2 so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libtime-basic-private-samba.so so:libwbclient.so.0
 p:so:libHDB-SAMBA4-private-samba.so=0 so:libLIBWBCLIENT-OLD-private-samba.so=0 so:libauth-unix-token-private-samba.so=0 so:libauth4-private-samba.so=0 so:libdb-glue-private-samba.so=0 so:libdcerpc-samr.so.0=0.0.1 so:libdcerpc-server.so.0=0.0.1 so:libdnsserver-common-private-samba.so=0 so:libgss-preauth-private-samba.so=0 so:libhdb-private-samba.so=0 so:libkdc-private-samba.so=0 so:libpac-private-samba.so=0 so:libposix-eadb-private-samba.so=0 so:libprocess-model-private-samba.so=0 so:libsamba-policy.so.0=0.0.1 so:libscavenge-dns-records-private-samba.so=0 so:libservice-private-samba.so=0 so:libshares-private-samba.so=0
 
-C:Q1Se1sowsanNnTVvLFozGNTpAEy+s=
+C:Q16hfBXvvD6eDASLC1RBnKtBR49ZI=
 P:samba-dev
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:321840
-I:1929127
+S:322199
+I:1930821
 T:Tools to access a server's filespace and printers via SMB (development files)
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:ldb=4.21.4-r4 libsmbclient=4.21.4-r4 libwbclient=4.21.4-r4 pc:talloc pc:tdb pc:tevent pkgconfig samba-client-libs=4.21.4-r4 samba-common-server-libs=4.21.4-r4 samba-dc-libs=4.21.4-r4 samba-libs=4.21.4-r4 samba-util-libs=4.21.4-r4
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:ldb=4.21.9-r1 libsmbclient=4.21.9-r1 libwbclient=4.21.9-r1 pc:talloc pc:tdb pc:tevent pkgconfig samba-client-libs=4.21.9-r1 samba-common-server-libs=4.21.9-r1 samba-dc-libs=4.21.9-r1 samba-libs=4.21.9-r1 samba-util-libs=4.21.9-r1
 p:ldb-dev pc:dcerpc=0.0.1 pc:dcerpc_samr=0.0.1 pc:dcerpc_server=0.0.1 pc:ldb=2.10.0 pc:ndr=5.0.0 pc:ndr_krb5pac=0.0.1 pc:ndr_nbt=0.0.1 pc:ndr_standard=0.0.1 pc:netapi=1.0.0 pc:samba-credentials=1.0.0 pc:samba-hostconfig=0.0.1 pc:samba-policy=0.0.1 pc:samba-util=0.0.1 pc:samdb=0.0.1 pc:smbclient=0.8.0 pc:wbclient=0.16
 
-C:Q1BTYqkFe0UDUOpDyOnt8wZ7IZffc=
+C:Q12031zlqVU57c0Q7PBtJNRYJsOBs=
 P:samba-doc
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:462726
-I:449315
+S:462776
+I:449320
 T:Tools to access a server's filespace and printers via SMB (documentation)
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-i:docs samba=4.21.4-r4
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+i:docs samba=4.21.9-r1
 
-C:Q1wAepUy1HajVMBnHinZuogG6ohQY=
+C:Q1ko1EZAXn9K8gnvyF5on5t8as/gI=
 P:samba-libnss-winbind
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
 S:14270
 I:44720
@@ -76139,184 +76139,184 @@ U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
 D:so:libc.musl-x86_64.so.1
 p:so:libnss_winbind.so.2=2 so:libnss_wins.so.2=2
 
-C:Q1CoZFn32oEYC9yk3hOLid8/Rgqto=
+C:Q1iuxLkg+RlvOVZz1TsTp0VR+Q5nE=
 P:samba-libs
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:5738285
-I:18642616
+S:5739212
+I:18646712
 T:Samba core libraries shared by common-tools, server and clients
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-util-libs=4.21.4-r4 ldb=4.21.4-r4 libwbclient=4.21.4-r4 so:libc.musl-x86_64.so.1 so:libcap.so.2 so:libcom-err-private-samba.so so:libgenrand-private-samba.so so:libgnutls.so.30 so:libiov-buf-private-samba.so so:libjansson.so.4 so:liblber.so.2 so:libldap.so.2 so:libldb.so.2 so:libpopt.so.0 so:libreplace-private-samba.so so:libsamba-debug-private-samba.so so:libsamba-util.so.0 so:libsocket-blocking-private-samba.so so:libstable-sort-private-samba.so so:libsys-rw-private-samba.so so:libtalloc.so.2 so:libtdb.so.1 so:libtevent.so.0 so:libtime-basic-private-samba.so so:libwbclient.so.0 so:libz.so.1
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-util-libs=4.21.9-r1 ldb=4.21.9-r1 libwbclient=4.21.9-r1 so:libc.musl-x86_64.so.1 so:libcap.so.2 so:libcom-err-private-samba.so so:libgenrand-private-samba.so so:libgnutls.so.30 so:libiov-buf-private-samba.so so:libjansson.so.4 so:liblber.so.2 so:libldap.so.2 so:libldb.so.2 so:libpopt.so.0 so:libreplace-private-samba.so so:libsamba-debug-private-samba.so so:libsamba-util.so.0 so:libsocket-blocking-private-samba.so so:libstable-sort-private-samba.so so:libsys-rw-private-samba.so so:libtalloc.so.2 so:libtdb.so.1 so:libtevent.so.0 so:libtime-basic-private-samba.so so:libwbclient.so.0 so:libz.so.1
 p:so:libCHARSET3-private-samba.so=0 so:libMESSAGING-SEND-private-samba.so=0 so:libMESSAGING-private-samba.so=0 so:libaddns-private-samba.so=0 so:libads-private-samba.so=0 so:libasn1-private-samba.so=0 so:libasn1util-private-samba.so=0 so:libauthkrb5-private-samba.so=0 so:libcli-cldap-private-samba.so=0 so:libcli-ldap-common-private-samba.so=0 so:libcli-nbt-private-samba.so=0 so:libcli-smb-common-private-samba.so=0 so:libcli-spoolss-private-samba.so=0 so:libcliauth-private-samba.so=0 so:libclidns-private-samba.so=0 so:libcluster-private-samba.so=0 so:libcmdline-private-samba.so=0 so:libcmocka-private-samba.so=0 so:libcommon-auth-private-samba.so=0 so:libdbwrap-private-samba.so=0 so:libdcerpc-binding.so.0=0.0.1 so:libdcerpc-pkt-auth-private-samba.so=0 so:libdcerpc-samba-private-samba.so=0 so:libevents-private-samba.so=0 so:libflag-mapping-private-samba.so=0 so:libgensec-private-samba.so=0 so:libgse-private-samba.so=0 so:libgssapi-private-samba.so=0 so:libhcrypto-private-samba.so=0 so:libheimbase-private-samba.so=0 so:libheimntlm-private-samba.so=0 so:libhx509-private-samba.so=0 so:libinterfaces-private-samba.so=0 so:libkrb5-private-samba.so=0 so:libkrb5samba-private-samba.so=0 so:libldbsamba-private-samba.so=0 so:liblibcli-lsa3-private-samba.so=0 so:liblibcli-netlogon3-private-samba.so=0 so:liblibsmb-private-samba.so=0 so:libmessages-dgm-private-samba.so=0 so:libmessages-util-private-samba.so=0 so:libmsghdr-private-samba.so=0 so:libmsrpc3-private-samba.so=0 so:libndr-krb5pac.so.0=0.0.1 so:libndr-nbt.so.0=0.0.1 so:libndr-samba-private-samba.so=0 so:libndr-samba4-private-samba.so=0 so:libndr-standard.so.0=0.0.1 so:libndr.so.5=5.0.0 so:libnpa-tstream-private-samba.so=0 so:libroken-private-samba.so=0 so:libsamba-cluster-support-private-samba.so=0 so:libsamba-credentials.so.1=1.0.0 so:libsamba-errors.so.1=1.0.0 so:libsamba-hostconfig.so.0=0.0.1 so:libsamba-modules-private-samba.so=0 so:libsamba-passdb.so.0=0.29.0 so:libsamba-security-private-samba.so=0 so:libsamba-sockets-private-samba.so=0 so:libsamba3-util-private-samba.so=0 so:libsamdb-common-private-samba.so=0 so:libsamdb.so.0=0.0.1 so:libsecrets3-private-samba.so=0 so:libserver-id-db-private-samba.so=0 so:libserver-role-private-samba.so=0 so:libsmb-transport-private-samba.so=0 so:libsmbconf.so.0=0.0.1 so:libsmbd-shim-private-samba.so=0 so:libsmbldap.so.2=2.1.0 so:libtalloc-report-printf-private-samba.so=0 so:libtalloc-report-private-samba.so=0 so:libtdb-wrap-private-samba.so=0 so:libtevent-util.so.0=0.0.1 so:libutil-crypt-private-samba.so=0 so:libutil-reg-private-samba.so=0 so:libutil-setid-private-samba.so=0 so:libutil-tdb-private-samba.so=0 so:libwind-private-samba.so=0
 
-C:Q1+vAluTqeCqVOlJOKKtgzlJRL0Wg=
+C:Q1KxryEbp5BNyBSqj3HbmUqrI7S6g=
 P:samba-libs-py3
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:105997
+S:106388
 I:331784
 T:Libraries that require libpython
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-client-libs=4.21.4-r4 samba-libs=4.21.4-r4 samba-util-libs=4.21.4-r4 ldb=4.21.4-r4 py3-ldb=4.21.4-r4 so:libMESSAGING-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-cldap-private-samba.so so:libcli-ldap-private-samba.so so:libcliauth-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libdcerpc.so.0 so:libevents-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libldb.so.2 so:libldbsamba-private-samba.so so:libndr-samba-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libpyldb-util.cpython-312-x86-64-linux-musl-private-samba.so so:libpytalloc-util.cpython-312-x86-64-linux-musl.so.2 so:libpython3.12.so.1.0 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamdb-common-private-samba.so so:libsamdb.so.0 so:libserver-role-private-samba.so so:libtalloc.so.2 so:libtevent-util.so.0 so:libtevent.so.0
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-client-libs=4.21.9-r1 samba-libs=4.21.9-r1 samba-util-libs=4.21.9-r1 ldb=4.21.9-r1 py3-ldb=4.21.9-r1 so:libMESSAGING-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-cldap-private-samba.so so:libcli-ldap-private-samba.so so:libcliauth-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libdcerpc.so.0 so:libevents-private-samba.so so:libgenrand-private-samba.so so:libgnutls.so.30 so:libldb.so.2 so:libldbsamba-private-samba.so so:libndr-samba-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libpyldb-util.cpython-312-x86-64-linux-musl-private-samba.so so:libpytalloc-util.cpython-312-x86-64-linux-musl.so.2 so:libpython3.12.so.1.0 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamdb-common-private-samba.so so:libsamdb.so.0 so:libserver-role-private-samba.so so:libtalloc.so.2 so:libtevent-util.so.0 so:libtevent.so.0
 p:so:libsamba-net-join.cpython-312-x86-64-linux-musl-private-samba.so=0 so:libsamba-net-private-samba.so=0 so:libsamba-python.cpython-312-x86-64-linux-musl-private-samba.so=0
 
-C:Q1NnD9kVsktS2ipT3/Ul+UP3CEjhY=
+C:Q1YJ4tvsbG/tc9dVnfPbVHEkZC16o=
 P:samba-pidl
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:101553
-I:502640
+S:101674
+I:503150
 T:Perl IDL compiler
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
 D:perl
-p:cmd:pidl=4.21.4-r4
+p:cmd:pidl=4.21.9-r1
 
-C:Q1QsI7OI81ysCmC1arI6L7Ipj+g30=
+C:Q1SSejFCiWLTAfnzWyTYlWXW8OE44=
 P:samba-server
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:1927148
-I:5926624
+S:1928114
+I:5934816
 T:Samba server
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-client-libs=4.21.4-r4 samba-common=4.21.4-r4 samba-common-server-libs=4.21.4-r4 samba-libs=4.21.4-r4 samba-util-libs=4.21.4-r4 libauth-samba=4.21.4-r4 libwbclient=4.21.4-r4 acl so:libCHARSET3-private-samba.so so:libRPC-SERVER-LOOP-private-samba.so so:libads-private-samba.so so:libauth-private-samba.so so:libauthkrb5-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-cldap-private-samba.so so:libcli-nbt-private-samba.so so:libcli-smb-common-private-samba.so so:libcli-spoolss-private-samba.so so:libcliauth-private-samba.so so:libcmdline-contexts-private-samba.so so:libcmdline-private-samba.so so:libcommon-auth-private-samba.so so:libcups.so.2 so:libdbus-1.so.3 so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libdcerpc-server-core.so.0 so:libdfs-server-ad-private-samba.so so:libevents-private-samba.so so:libgenrand-private-samba.so so:libgnutls.so.30 so:libgse-private-samba.so so:libhttp-private-samba.so so:libjansson.so.4 so:libldap.so.2 so:liblibcli-lsa3-private-samba.so so:liblibcli-netlogon3-private-samba.so so:liblibsmb-private-samba.so so:libmessages-dgm-private-samba.so so:libmsghdr-private-samba.so so:libmsrpc3-private-samba.so so:libndr-nbt.so.0 so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libnetapi.so.1 so:libnpa-tstream-private-samba.so so:libpopt.so.0 so:libprinting-migrate-private-samba.so so:libreplace-private-samba.so so:libsamba-cluster-support-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb.so.0 so:libsecrets3-private-samba.so so:libsmbconf.so.0 so:libsmbd-base-private-samba.so so:libsmbd-shim-private-samba.so so:libsocket-blocking-private-samba.so so:libsys-rw-private-samba.so so:libtalloc.so.2 so:libtdb-wrap-private-samba.so so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libtime-basic-private-samba.so so:liburing.so.2 so:libutil-reg-private-samba.so so:libutil-tdb-private-samba.so so:libwbclient.so.0
-p:so:libREG-FULL-private-samba.so=0 so:libRPC-WORKER-private-samba.so=0 so:libxattr-tdb-private-samba.so=0 cmd:eventlogadm=4.21.4-r4 cmd:nmbd=4.21.4-r4 cmd:smbd=4.21.4-r4 cmd:smbstatus=4.21.4-r4
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-client-libs=4.21.9-r1 samba-common=4.21.9-r1 samba-common-server-libs=4.21.9-r1 samba-libs=4.21.9-r1 samba-util-libs=4.21.9-r1 libauth-samba=4.21.9-r1 libwbclient=4.21.9-r1 acl so:libCHARSET3-private-samba.so so:libRPC-SERVER-LOOP-private-samba.so so:libads-private-samba.so so:libauth-private-samba.so so:libauthkrb5-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-cldap-private-samba.so so:libcli-nbt-private-samba.so so:libcli-smb-common-private-samba.so so:libcli-spoolss-private-samba.so so:libcliauth-private-samba.so so:libcmdline-contexts-private-samba.so so:libcmdline-private-samba.so so:libcommon-auth-private-samba.so so:libcups.so.2 so:libdbus-1.so.3 so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libdcerpc-server-core.so.0 so:libdfs-server-ad-private-samba.so so:libevents-private-samba.so so:libgenrand-private-samba.so so:libgnutls.so.30 so:libgse-private-samba.so so:libhttp-private-samba.so so:libjansson.so.4 so:libldap.so.2 so:liblibcli-lsa3-private-samba.so so:liblibcli-netlogon3-private-samba.so so:liblibsmb-private-samba.so so:libmessages-dgm-private-samba.so so:libmsghdr-private-samba.so so:libmsrpc3-private-samba.so so:libndr-nbt.so.0 so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libnetapi.so.1 so:libnpa-tstream-private-samba.so so:libpopt.so.0 so:libprinting-migrate-private-samba.so so:libreplace-private-samba.so so:libsamba-cluster-support-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb.so.0 so:libsecrets3-private-samba.so so:libsmbconf.so.0 so:libsmbd-base-private-samba.so so:libsmbd-shim-private-samba.so so:libsocket-blocking-private-samba.so so:libsys-rw-private-samba.so so:libtalloc.so.2 so:libtdb-wrap-private-samba.so so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libtime-basic-private-samba.so so:liburing.so.2 so:libutil-reg-private-samba.so so:libutil-tdb-private-samba.so so:libwbclient.so.0
+p:so:libREG-FULL-private-samba.so=0 so:libRPC-WORKER-private-samba.so=0 so:libxattr-tdb-private-samba.so=0 cmd:eventlogadm=4.21.9-r1 cmd:nmbd=4.21.9-r1 cmd:smbd=4.21.9-r1 cmd:smbstatus=4.21.9-r1
 
-C:Q1VGTenBttVUWqco5Ce9DeHhyCX6w=
+C:Q1FHNalAZMZ1S13xepBa0Qe7sr+h0=
 P:samba-server-libs
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:55536
+S:55524
 I:202400
 T:Samba libraries shared by server and windbind
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-libs=4.21.4-r4 samba-util-libs=4.21.4-r4 so:libc.musl-x86_64.so.1 so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libgenrand-private-samba.so so:libndr-samba4-private-samba.so so:libndr.so.5 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-modules-private-samba.so so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsecrets3-private-samba.so so:libsmbconf.so.0 so:libtalloc.so.2 so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-tdb-private-samba.so
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-libs=4.21.9-r1 samba-util-libs=4.21.9-r1 so:libc.musl-x86_64.so.1 so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libgenrand-private-samba.so so:libndr-samba4-private-samba.so so:libndr.so.5 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-modules-private-samba.so so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsecrets3-private-samba.so so:libsmbconf.so.0 so:libtalloc.so.2 so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-tdb-private-samba.so
 p:so:libdcerpc-samba4-private-samba.so=0 so:libidmap-private-samba.so=0 so:libnss-info-private-samba.so=0
 
-C:Q1yCEepxrwTpDOG50qQeuOKt0oRts=
+C:Q1HhM1M1Grso4MufD4mh8CrycySoQ=
 P:samba-server-openrc
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:2380
+S:2381
 I:1946
 T:Tools to access a server's filespace and printers via SMB (OpenRC init scripts)
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-i:openrc samba-server=4.21.4-r4
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+i:openrc samba-server=4.21.9-r1
 
-C:Q1WC30vCOfoOUgzWZBNlyOkLT/+bY=
+C:Q1256IqEKt3RDG+EJPLyueKCng2tQ=
 P:samba-test
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:2980355
-I:10594992
+S:2984004
+I:10607280
 T:Samba server and client testing tools
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-client-libs=4.21.4-r4 samba-common-server-libs=4.21.4-r4 samba-dc=4.21.4-r4 samba-dc-libs=4.21.4-r4 samba-libs=4.21.4-r4 samba-libs-py3=4.21.4-r4 samba-server-libs=4.21.4-r4 samba-util-libs=4.21.4-r4 ldb=4.21.4-r4 libauth-samba=4.21.4-r4 libsmbclient=4.21.4-r4 libwbclient=4.21.4-r4 so:libLIBWBCLIENT-OLD-private-samba.so so:libMESSAGING-SEND-private-samba.so so:libMESSAGING-private-samba.so so:libRPC-SERVER-LOOP-private-samba.so so:libaddns-private-samba.so so:libads-private-samba.so so:libasn1-private-samba.so so:libasn1util-private-samba.so so:libauth-private-samba.so so:libauthkrb5-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-cldap-private-samba.so so:libcli-ldap-common-private-samba.so so:libcli-ldap-private-samba.so so:libcli-nbt-private-samba.so so:libcli-smb-common-private-samba.so so:libcliauth-private-samba.so so:libcluster-private-samba.so so:libcmdline-private-samba.so so:libcom-err-private-samba.so so:libcommon-auth-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libdcerpc-samba4-private-samba.so so:libdcerpc-server-core.so.0 so:libdcerpc.so.0 so:libdnsserver-common-private-samba.so so:libdsdb-module-private-samba.so so:libevents-private-samba.so so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgse-private-samba.so so:libidmap-private-samba.so so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:libldb.so.2 so:libldbsamba-private-samba.so so:liblibcli-lsa3-private-samba.so so:liblibcli-netlogon3-private-samba.so so:liblibsmb-private-samba.so so:libmsrpc3-private-samba.so so:libndr-krb5pac.so.0 so:libndr-nbt.so.0 so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libnetapi.so.1 so:libnetif-private-samba.so so:libnss-info-private-samba.so so:libpopt.so.0 so:libprinter-driver-private-samba.so so:libreadline.so.8 so:libregistry-private-samba.so so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-modules-private-samba.so so:libsamba-net-join.cpython-312-x86-64-linux-musl-private-samba.so so:libsamba-net-private-samba.so so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb-common-private-samba.so so:libsamdb.so.0 so:libsecrets3-private-samba.so so:libserver-id-db-private-samba.so so:libshares-private-samba.so so:libsmbclient-raw-private-samba.so so:libsmbclient.so.0 so:libsmbconf.so.0 so:libsmbd-shim-private-samba.so so:libsmbpasswdparser-private-samba.so so:libsocket-blocking-private-samba.so so:libsys-rw-private-samba.so so:libtalloc.so.2 so:libtdb-wrap-private-samba.so so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libtime-basic-private-samba.so so:libutil-reg-private-samba.so so:libutil-tdb-private-samba.so so:libwbclient.so.0
-p:so:libdlz-bind9-for-torture-private-samba.so=0 so:libtorture-private-samba.so=0 cmd:gentest=4.21.4-r4 cmd:locktest=4.21.4-r4 cmd:masktest=4.21.4-r4 cmd:ndrdump=4.21.4-r4 cmd:smbtorture=4.21.4-r4
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-client-libs=4.21.9-r1 samba-common-server-libs=4.21.9-r1 samba-dc=4.21.9-r1 samba-dc-libs=4.21.9-r1 samba-libs=4.21.9-r1 samba-libs-py3=4.21.9-r1 samba-server-libs=4.21.9-r1 samba-util-libs=4.21.9-r1 ldb=4.21.9-r1 libauth-samba=4.21.9-r1 libsmbclient=4.21.9-r1 libwbclient=4.21.9-r1 so:libLIBWBCLIENT-OLD-private-samba.so so:libMESSAGING-SEND-private-samba.so so:libMESSAGING-private-samba.so so:libRPC-SERVER-LOOP-private-samba.so so:libaddns-private-samba.so so:libads-private-samba.so so:libasn1-private-samba.so so:libasn1util-private-samba.so so:libauth-private-samba.so so:libauthkrb5-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-cldap-private-samba.so so:libcli-ldap-common-private-samba.so so:libcli-ldap-private-samba.so so:libcli-nbt-private-samba.so so:libcli-smb-common-private-samba.so so:libcliauth-private-samba.so so:libcluster-private-samba.so so:libcmdline-private-samba.so so:libcom-err-private-samba.so so:libcommon-auth-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libdcerpc-samba4-private-samba.so so:libdcerpc-server-core.so.0 so:libdcerpc.so.0 so:libdnsserver-common-private-samba.so so:libdsdb-module-private-samba.so so:libevents-private-samba.so so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgse-private-samba.so so:libidmap-private-samba.so so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:libldb.so.2 so:libldbsamba-private-samba.so so:liblibcli-lsa3-private-samba.so so:liblibcli-netlogon3-private-samba.so so:liblibsmb-private-samba.so so:libmsrpc3-private-samba.so so:libndr-krb5pac.so.0 so:libndr-nbt.so.0 so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libnetapi.so.1 so:libnetif-private-samba.so so:libnss-info-private-samba.so so:libpopt.so.0 so:libprinter-driver-private-samba.so so:libreadline.so.8 so:libregistry-private-samba.so so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-modules-private-samba.so so:libsamba-net-join.cpython-312-x86-64-linux-musl-private-samba.so so:libsamba-net-private-samba.so so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb-common-private-samba.so so:libsamdb.so.0 so:libsecrets3-private-samba.so so:libserver-id-db-private-samba.so so:libshares-private-samba.so so:libsmbclient-raw-private-samba.so so:libsmbclient.so.0 so:libsmbconf.so.0 so:libsmbd-shim-private-samba.so so:libsmbpasswdparser-private-samba.so so:libsocket-blocking-private-samba.so so:libsys-rw-private-samba.so so:libtalloc.so.2 so:libtdb-wrap-private-samba.so so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libtime-basic-private-samba.so so:libutil-reg-private-samba.so so:libutil-tdb-private-samba.so so:libwbclient.so.0
+p:so:libdlz-bind9-for-torture-private-samba.so=0 so:libtorture-private-samba.so=0 cmd:gentest=4.21.9-r1 cmd:locktest=4.21.9-r1 cmd:masktest=4.21.9-r1 cmd:ndrdump=4.21.9-r1 cmd:smbtorture=4.21.9-r1
 
-C:Q1IGXmXF5hO+/+9BnsNp4PfBbSIH8=
+C:Q1vMrtpr73eTYZnKdQ+DhJAyHVJ3g=
 P:samba-util-libs
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:360480
+S:360633
 I:627408
 T:Samba utility libraries
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
 D:so:libc.musl-x86_64.so.1 so:libgnutls.so.30 so:libicui18n.so.76 so:libicuuc.so.76 so:libtalloc.so.2 so:libtevent.so.0
 p:so:libcom-err-private-samba.so=0 so:libgenrand-private-samba.so=0 so:libiov-buf-private-samba.so=0 so:libreplace-private-samba.so=0 so:libsamba-debug-private-samba.so=0 so:libsamba-util.so.0=0.0.1 so:libsocket-blocking-private-samba.so=0 so:libstable-sort-private-samba.so=0 so:libsys-rw-private-samba.so=0 so:libtime-basic-private-samba.so=0
 
-C:Q15yKOqZVQ3uaBTmcaTI7lAqnhd/Y=
+C:Q1ZnuFJwJfwQUKs8G7xNEuZZupRwE=
 P:samba-winbind
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:436598
+S:437279
 I:1289712
 T:Samba user and group resolver
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-common=4.21.4-r4 samba-common-server-libs=4.21.4-r4 samba-libs=4.21.4-r4 samba-server-libs=4.21.4-r4 samba-util-libs=4.21.4-r4 ldb=4.21.4-r4 libauth-samba=4.21.4-r4 so:libMESSAGING-private-samba.so so:libRPC-SERVER-LOOP-private-samba.so so:libads-private-samba.so so:libasn1util-private-samba.so so:libauth-private-samba.so so:libauthkrb5-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-ldap-common-private-samba.so so:libcli-smb-common-private-samba.so so:libcliauth-private-samba.so so:libcmdline-private-samba.so so:libcom-err-private-samba.so so:libcommon-auth-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libdcerpc-samba4-private-samba.so so:libdcerpc-server-core.so.0 so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgse-private-samba.so so:libidmap-private-samba.so so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:libldap.so.2 so:libldb.so.2 so:liblibcli-lsa3-private-samba.so so:liblibcli-netlogon3-private-samba.so so:liblibsmb-private-samba.so so:libmsrpc3-private-samba.so so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libnss-info-private-samba.so so:libpopt.so.0 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb-common-private-samba.so so:libsecrets3-private-samba.so so:libsmbconf.so.0 so:libsmbd-shim-private-samba.so so:libsmbldap.so.2 so:libsmbldaphelper-private-samba.so so:libsocket-blocking-private-samba.so so:libsys-rw-private-samba.so so:libtalloc.so.2 so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-tdb-private-samba.so
-p:cmd:winbindd=4.21.4-r4
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-common=4.21.9-r1 samba-common-server-libs=4.21.9-r1 samba-libs=4.21.9-r1 samba-server-libs=4.21.9-r1 samba-util-libs=4.21.9-r1 ldb=4.21.9-r1 libauth-samba=4.21.9-r1 /bin/sh so:libMESSAGING-private-samba.so so:libRPC-SERVER-LOOP-private-samba.so so:libads-private-samba.so so:libasn1util-private-samba.so so:libauth-private-samba.so so:libauthkrb5-private-samba.so so:libc.musl-x86_64.so.1 so:libcli-ldap-common-private-samba.so so:libcli-smb-common-private-samba.so so:libcliauth-private-samba.so so:libcmdline-private-samba.so so:libcom-err-private-samba.so so:libcommon-auth-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libdcerpc-samba4-private-samba.so so:libdcerpc-server-core.so.0 so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgse-private-samba.so so:libidmap-private-samba.so so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:libldap.so.2 so:libldb.so.2 so:liblibcli-lsa3-private-samba.so so:liblibcli-netlogon3-private-samba.so so:liblibsmb-private-samba.so so:libmsrpc3-private-samba.so so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr-standard.so.0 so:libndr.so.5 so:libnss-info-private-samba.so so:libpopt.so.0 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb-common-private-samba.so so:libsecrets3-private-samba.so so:libsmbconf.so.0 so:libsmbd-shim-private-samba.so so:libsmbldap.so.2 so:libsmbldaphelper-private-samba.so so:libsocket-blocking-private-samba.so so:libsys-rw-private-samba.so so:libtalloc.so.2 so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-tdb-private-samba.so
+p:cmd:winbindd=4.21.9-r1
 
-C:Q1a9wuOcbsg58i+XST0TGmHqIqpxs=
+C:Q1FGyUhKLzJR9bKBg6ZrZDh0lLkoU=
 P:samba-winbind-clients
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:51928
+S:51917
 I:139360
 T:Samba winbind client tools
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-libs=4.21.4-r4 samba-util-libs=4.21.4-r4 libwbclient=4.21.4-r4 so:libauthkrb5-private-samba.so so:libc.musl-x86_64.so.1 so:libcliauth-private-samba.so so:libcmdline-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgse-private-samba.so so:libpopt.so.0 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-security-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsecrets3-private-samba.so so:libsmbconf.so.0 so:libtalloc.so.2 so:libtevent-util.so.0 so:libtevent.so.0 so:libwbclient.so.0
-p:cmd:ntlm_auth=4.21.4-r4 cmd:wbinfo=4.21.4-r4
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-libs=4.21.9-r1 samba-util-libs=4.21.9-r1 libwbclient=4.21.9-r1 so:libauthkrb5-private-samba.so so:libc.musl-x86_64.so.1 so:libcliauth-private-samba.so so:libcmdline-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgse-private-samba.so so:libpopt.so.0 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-security-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsecrets3-private-samba.so so:libsmbconf.so.0 so:libtalloc.so.2 so:libtevent-util.so.0 so:libtevent.so.0 so:libwbclient.so.0
+p:cmd:ntlm_auth=4.21.9-r1 cmd:wbinfo=4.21.9-r1
 
-C:Q1OFIfOC+p7jLIiIjO0m0b+KqwBTU=
+C:Q13i+VizW3eAyraEgvi6WWqGMYM8I=
 P:samba-winbind-krb5-locator
-V:4.21.4-r4
+V:4.21.9-r1
 A:x86_64
-S:5556
+S:5554
 I:28336
 T:Samba winbind krb5 locator
 U:https://www.samba.org/
 L:GPL-3.0-or-later AND LGPL-3.0-or-later
 o:samba
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1748355660
-c:259eacb9cd3ed36231e22c812d4845639cdc085a
-D:samba-libs=4.21.4-r4 samba-util-libs=4.21.4-r4 libwbclient=4.21.4-r4 so:libc.musl-x86_64.so.1 so:libgse-private-samba.so so:libreplace-private-samba.so so:libsamba-util.so.0 so:libsmbconf.so.0 so:libtalloc.so.2 so:libwbclient.so.0
+t:1762756762
+c:e6bdca47b2e422eaa0243187a344fe89e364273b
+D:samba-libs=4.21.9-r1 samba-util-libs=4.21.9-r1 libwbclient=4.21.9-r1 so:libc.musl-x86_64.so.1 so:libgse-private-samba.so so:libreplace-private-samba.so so:libsamba-util.so.0 so:libsmbconf.so.0 so:libtalloc.so.2 so:libwbclient.so.0
 
 C:Q1ZqufHavvSpf2OEQ5C49w6GC9QBE=
 P:samurai
@@ -79918,81 +79918,81 @@ t:1737705714
 c:b57f4b1b86c4459de20484ae38b9b494e0fde576
 i:docs strace=6.13-r0
 
-C:Q1+j7DQIjyf8yvqNcK7qDwLEy9g7E=
+C:Q1WLkv8zF2p73XNYLSccBcZp7XiA4=
 P:strongswan
-V:5.9.14-r0
+V:5.9.14-r1
 A:x86_64
-S:1146963
+S:1146952
 I:3153671
 T:IPsec-based VPN solution focused on security and ease of use, supporting IKEv1/IKEv2 and MOBIKE
 U:https://www.strongswan.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:strongswan
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1732550994
-c:d374351ea944b7acb6d3bdd5607094a194e10ff0
+t:1762427054
+c:2fae191b2a8a99d6e183e89c4796c2be2513e224
 D:iproute2 /bin/sh so:libc.musl-x86_64.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libcurl.so.4 so:libgmp.so.10 so:libsqlite3.so.0
-p:so:libcharon.so.0=0.0.0 so:libradius.so.0=0.0.0 so:libsimaka.so.0=0.0.0 so:libstrongswan-aesni.so=0 so:libstrongswan-attr-sql.so=0 so:libstrongswan-attr.so=0 so:libstrongswan-bypass-lan.so=0 so:libstrongswan-cmac.so=0 so:libstrongswan-constraints.so=0 so:libstrongswan-counters.so=0 so:libstrongswan-curl.so=0 so:libstrongswan-curve25519.so=0 so:libstrongswan-dhcp.so=0 so:libstrongswan-dnskey.so=0 so:libstrongswan-drbg.so=0 so:libstrongswan-eap-aka-3gpp2.so=0 so:libstrongswan-eap-aka.so=0 so:libstrongswan-eap-identity.so=0 so:libstrongswan-eap-md5.so=0 so:libstrongswan-eap-mschapv2.so=0 so:libstrongswan-eap-radius.so=0 so:libstrongswan-eap-sim-file.so=0 so:libstrongswan-eap-sim.so=0 so:libstrongswan-eap-simaka-pseudonym.so=0 so:libstrongswan-eap-simaka-reauth.so=0 so:libstrongswan-eap-tls.so=0 so:libstrongswan-farp.so=0 so:libstrongswan-fips-prf.so=0 so:libstrongswan-gcm.so=0 so:libstrongswan-gmp.so=0 so:libstrongswan-ha.so=0 so:libstrongswan-kdf.so=0 so:libstrongswan-kernel-netlink.so=0 so:libstrongswan-mgf1.so=0 so:libstrongswan-nonce.so=0 so:libstrongswan-openssl.so=0 so:libstrongswan-pem.so=0 so:libstrongswan-pgp.so=0 so:libstrongswan-pkcs1.so=0 so:libstrongswan-pkcs12.so=0 so:libstrongswan-pkcs7.so=0 so:libstrongswan-pkcs8.so=0 so:libstrongswan-pubkey.so=0 so:libstrongswan-random.so=0 so:libstrongswan-resolve.so=0 so:libstrongswan-revocation.so=0 so:libstrongswan-socket-default.so=0 so:libstrongswan-sqlite.so=0 so:libstrongswan-sshkey.so=0 so:libstrongswan-stroke.so=0 so:libstrongswan-unity.so=0 so:libstrongswan-updown.so=0 so:libstrongswan-vici.so=0 so:libstrongswan-x509.so=0 so:libstrongswan-xauth-eap.so=0 so:libstrongswan-xauth-generic.so=0 so:libstrongswan-xcbc.so=0 so:libstrongswan.so.0=0.0.0 so:libtls.so.0=0.0.0 so:libvici.so.0=0.0.0 cmd:charon-cmd=5.9.14-r0 cmd:ipsec=5.9.14-r0 cmd:pki=5.9.14-r0 cmd:swanctl=5.9.14-r0
+p:so:libcharon.so.0=0.0.0 so:libradius.so.0=0.0.0 so:libsimaka.so.0=0.0.0 so:libstrongswan-aesni.so=0 so:libstrongswan-attr-sql.so=0 so:libstrongswan-attr.so=0 so:libstrongswan-bypass-lan.so=0 so:libstrongswan-cmac.so=0 so:libstrongswan-constraints.so=0 so:libstrongswan-counters.so=0 so:libstrongswan-curl.so=0 so:libstrongswan-curve25519.so=0 so:libstrongswan-dhcp.so=0 so:libstrongswan-dnskey.so=0 so:libstrongswan-drbg.so=0 so:libstrongswan-eap-aka-3gpp2.so=0 so:libstrongswan-eap-aka.so=0 so:libstrongswan-eap-identity.so=0 so:libstrongswan-eap-md5.so=0 so:libstrongswan-eap-mschapv2.so=0 so:libstrongswan-eap-radius.so=0 so:libstrongswan-eap-sim-file.so=0 so:libstrongswan-eap-sim.so=0 so:libstrongswan-eap-simaka-pseudonym.so=0 so:libstrongswan-eap-simaka-reauth.so=0 so:libstrongswan-eap-tls.so=0 so:libstrongswan-farp.so=0 so:libstrongswan-fips-prf.so=0 so:libstrongswan-gcm.so=0 so:libstrongswan-gmp.so=0 so:libstrongswan-ha.so=0 so:libstrongswan-kdf.so=0 so:libstrongswan-kernel-netlink.so=0 so:libstrongswan-mgf1.so=0 so:libstrongswan-nonce.so=0 so:libstrongswan-openssl.so=0 so:libstrongswan-pem.so=0 so:libstrongswan-pgp.so=0 so:libstrongswan-pkcs1.so=0 so:libstrongswan-pkcs12.so=0 so:libstrongswan-pkcs7.so=0 so:libstrongswan-pkcs8.so=0 so:libstrongswan-pubkey.so=0 so:libstrongswan-random.so=0 so:libstrongswan-resolve.so=0 so:libstrongswan-revocation.so=0 so:libstrongswan-socket-default.so=0 so:libstrongswan-sqlite.so=0 so:libstrongswan-sshkey.so=0 so:libstrongswan-stroke.so=0 so:libstrongswan-unity.so=0 so:libstrongswan-updown.so=0 so:libstrongswan-vici.so=0 so:libstrongswan-x509.so=0 so:libstrongswan-xauth-eap.so=0 so:libstrongswan-xauth-generic.so=0 so:libstrongswan-xcbc.so=0 so:libstrongswan.so.0=0.0.0 so:libtls.so.0=0.0.0 so:libvici.so.0=0.0.0 cmd:charon-cmd=5.9.14-r1 cmd:ipsec=5.9.14-r1 cmd:pki=5.9.14-r1 cmd:swanctl=5.9.14-r1
 
-C:Q1JPnoe04anTeW8BeF0WpRQXuQrX8=
+C:Q15Zb2fvlWmV07jvFOgXfB2MzTgIU=
 P:strongswan-dbg
-V:5.9.14-r0
+V:5.9.14-r1
 A:x86_64
-S:9940768
-I:20244344
+S:9938670
+I:20243728
 T:IPsec-based VPN solution focused on security and ease of use, supporting IKEv1/IKEv2 and MOBIKE (debug symbols)
 U:https://www.strongswan.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:strongswan
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1732550994
-c:d374351ea944b7acb6d3bdd5607094a194e10ff0
-D:iproute2 !strongswan<5.9.14-r0 !strongswan>5.9.14-r0
+t:1762427054
+c:2fae191b2a8a99d6e183e89c4796c2be2513e224
+D:iproute2 !strongswan<5.9.14-r1 !strongswan>5.9.14-r1
 
-C:Q15S0T8xbAB8jHRK1hsf1b6D9RDGM=
+C:Q1BLukrSO8K5jLrGLDgJXmaUr/q+Y=
 P:strongswan-doc
-V:5.9.14-r0
+V:5.9.14-r1
 A:x86_64
-S:104755
+S:104752
 I:100372
 T:IPsec-based VPN solution focused on security and ease of use, supporting IKEv1/IKEv2 and MOBIKE (documentation)
 U:https://www.strongswan.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:strongswan
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1732550994
-c:d374351ea944b7acb6d3bdd5607094a194e10ff0
-i:docs strongswan=5.9.14-r0
+t:1762427054
+c:2fae191b2a8a99d6e183e89c4796c2be2513e224
+i:docs strongswan=5.9.14-r1
 
-C:Q1qs6BLGKhR//5gMkshEUdusJkrzk=
+C:Q11XkzfQCVC6/kd8yTlbZnBTMQQvU=
 P:strongswan-logfile
-V:5.9.14-r0
+V:5.9.14-r1
 A:x86_64
-S:1956
+S:1950
 I:224
 T:Dedicated log file configuration for charon
 U:https://www.strongswan.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:strongswan
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1732550994
-c:d374351ea944b7acb6d3bdd5607094a194e10ff0
+t:1762427054
+c:2fae191b2a8a99d6e183e89c4796c2be2513e224
 D:strongswan
 
-C:Q1U2s5AkIl0rWWrDvRrOBbxjz4Th4=
+C:Q1i1bI4A0wmtYlUKj2PSecy7WJDxQ=
 P:strongswan-openrc
-V:5.9.14-r0
+V:5.9.14-r1
 A:x86_64
-S:2146
+S:2142
 I:955
 T:IPsec-based VPN solution focused on security and ease of use, supporting IKEv1/IKEv2 and MOBIKE (OpenRC init scripts)
 U:https://www.strongswan.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:strongswan
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1732550994
-c:d374351ea944b7acb6d3bdd5607094a194e10ff0
-i:openrc strongswan=5.9.14-r0
+t:1762427054
+c:2fae191b2a8a99d6e183e89c4796c2be2513e224
+i:openrc strongswan=5.9.14-r1
 
 C:Q1kE34cEO0HUFpbR/NvjdWrO6PiXE=
 P:su-exec
@@ -82062,35 +82062,35 @@ t:1742797235
 c:14fe734246305b9d5916cd1610a1c8e6d5a1213e
 p:cmd:posixtz=2025b-r0 cmd:zdump=2025b-r0 cmd:zic=2025b-r0
 
-C:Q12XtHNssfM+JPzdcuzChP93sLH18=
+C:Q1QisVbwTwdz1+jgo0xM6fTMBLvRU=
 P:u-boot
-V:2025.04-r5
+V:2025.04-r6
 A:x86_64
-S:1357
+S:1351
 I:0
 T:u-boot bootloader common files
 U:https://www.denx.de/wiki/U-Boot/
 L:GPL-2.0-or-later OFL-1.1 BSD-2-Clause BSD-3-Clause WITH eCos-exception-2.0 IBM-pibs ISC LGPL-2.0-only LGPL-2.1-only X11
 o:u-boot
 m:Milan P. Stanić <mps@arvanta.net>
-t:1761006871
-c:dc4f154244d05155d527a67d0c61b3aa8b41e49e
+t:1762598418
+c:584fbac8248e3689687174f7fd30f0c3a2a54280
 
-C:Q19PgC7LonG4aKtd/J6kw/YE1lPtk=
+C:Q1BAk4XOj2WnS+dhWA1JC06Lx5XSM=
 P:u-boot-tools
-V:2025.04-r5
+V:2025.04-r6
 A:x86_64
-S:701298
+S:701301
 I:1565843
 T:u-boot bootloader utility tools
 U:https://www.denx.de/wiki/U-Boot/
 L:GPL-2.0-or-later OFL-1.1 BSD-2-Clause BSD-3-Clause WITH eCos-exception-2.0 IBM-pibs ISC LGPL-2.0-only LGPL-2.1-only X11
 o:u-boot
 m:Milan P. Stanić <mps@arvanta.net>
-t:1761006871
-c:dc4f154244d05155d527a67d0c61b3aa8b41e49e
+t:1762598418
+c:584fbac8248e3689687174f7fd30f0c3a2a54280
 D:so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libssl.so.3
-p:uboot-tools cmd:dumpimage=2025.04-r5 cmd:fit_check_sign=2025.04-r5 cmd:fit_info=2025.04-r5 cmd:fw_printenv=2025.04-r5 cmd:fw_setenv=2025.04-r5 cmd:gdbcont=2025.04-r5 cmd:gdbsend=2025.04-r5 cmd:gen_eth_addr=2025.04-r5 cmd:img2srec=2025.04-r5 cmd:mkenvimage=2025.04-r5 cmd:mkimage=2025.04-r5 cmd:ncb=2025.04-r5 cmd:proftool=2025.04-r5
+p:uboot-tools cmd:dumpimage=2025.04-r6 cmd:fit_check_sign=2025.04-r6 cmd:fit_info=2025.04-r6 cmd:fw_printenv=2025.04-r6 cmd:fw_setenv=2025.04-r6 cmd:gdbcont=2025.04-r6 cmd:gdbsend=2025.04-r6 cmd:gen_eth_addr=2025.04-r6 cmd:img2srec=2025.04-r6 cmd:mkenvimage=2025.04-r6 cmd:mkimage=2025.04-r6 cmd:ncb=2025.04-r6 cmd:proftool=2025.04-r6
 
 C:Q1ZxpLXr2+OUBOTOt/+BT5ELCJ58w=
 P:ucarp
@@ -84424,84 +84424,84 @@ c:c16e9c43f3621604f596fc4a75d3a02dd3785a79
 D:yash-completion
 i:yash-completion=2.58.1-r0 valgrind
 
-C:Q13jRjcWSH6Pl61vfbdYgJuojQYTE=
+C:Q1w7KLycOHqrmI6VHze7eXZF7/J2Y=
 P:valkey
-V:8.1.1-r2
+V:8.1.4-r0
 A:x86_64
-S:1288851
-I:3008179
+S:1290790
+I:3012435
 T:Open source high-performance key/value datastore (fork of Redis)
 U:https://valkey.io/
 L:BSD-3-Clause
 o:valkey
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1751843041
-c:7df33ea4a9e63aad0429abb1ab62a7c4d2fcaaeb
+t:1762852280
+c:7d15a0a9663d877b3a38cfe2d8ee903306afa07c
 D:/bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libssl.so.3
-p:cmd:valkey-check-aof=8.1.1-r2 cmd:valkey-check-rdb=8.1.1-r2 cmd:valkey-sentinel=8.1.1-r2 cmd:valkey-server=8.1.1-r2
+p:cmd:valkey-check-aof=8.1.4-r0 cmd:valkey-check-rdb=8.1.4-r0 cmd:valkey-sentinel=8.1.4-r0 cmd:valkey-server=8.1.4-r0
 
-C:Q1RATxSpNbQQJkPUe3RPFm+MjtTzE=
+C:Q1KJeTbI6sL+7P9Hf+YgC2M7mjMfk=
 P:valkey-benchmark
-V:8.1.1-r2
+V:8.1.4-r0
 A:x86_64
-S:146054
+S:146044
 I:285248
 T:Valkey benchmarking tool
 U:https://valkey.io/
 L:BSD-3-Clause
 o:valkey
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1751843041
-c:7df33ea4a9e63aad0429abb1ab62a7c4d2fcaaeb
+t:1762852280
+c:7d15a0a9663d877b3a38cfe2d8ee903306afa07c
 D:so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libssl.so.3
-p:cmd:valkey-benchmark=8.1.1-r2
+p:cmd:valkey-benchmark=8.1.4-r0
 
-C:Q1EO7PrhDEaIXP87lFs5pngZr+IvI=
+C:Q11iFCphBX4H8OOrd5+8LizLIEJtg=
 P:valkey-cli
-V:8.1.1-r2
+V:8.1.4-r0
 A:x86_64
-S:200276
+S:200277
 I:526720
 T:Valkey CLI client
 U:https://valkey.io/
 L:BSD-3-Clause
 o:valkey
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1751843041
-c:7df33ea4a9e63aad0429abb1ab62a7c4d2fcaaeb
+t:1762852280
+c:7d15a0a9663d877b3a38cfe2d8ee903306afa07c
 D:so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libssl.so.3
-p:cmd:valkey-cli=8.1.1-r2
+p:cmd:valkey-cli=8.1.4-r0
 
-C:Q19t8350nXizw/UiXRoMcNRtSArd8=
+C:Q1XrBXyougDmdTyYVtR1GrIEqvGwU=
 P:valkey-compat
-V:8.1.1-r2
+V:8.1.4-r0
 A:x86_64
-S:1997
+S:1999
 I:1
 T:Valkey command symlinks and system group for compatibility with redis
 U:https://valkey.io/
 L:BSD-3-Clause
 o:valkey
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1751843041
-c:7df33ea4a9e63aad0429abb1ab62a7c4d2fcaaeb
-D:!redis !redict-compat /bin/sh valkey-cli=8.1.1-r2 valkey=8.1.1-r2
-p:cmd:redis-check-aof=8.1.1-r2 cmd:redis-check-rdb=8.1.1-r2 cmd:redis-cli=8.1.1-r2 cmd:redis-sentinel=8.1.1-r2 cmd:redis-server=8.1.1-r2
+t:1762852280
+c:7d15a0a9663d877b3a38cfe2d8ee903306afa07c
+D:!redis !redict-compat /bin/sh valkey-cli=8.1.4-r0 valkey=8.1.4-r0
+p:cmd:redis-check-aof=8.1.4-r0 cmd:redis-check-rdb=8.1.4-r0 cmd:redis-cli=8.1.4-r0 cmd:redis-sentinel=8.1.4-r0 cmd:redis-server=8.1.4-r0
 
-C:Q19oXokgJWoilWnCYtCiunU2kIHUQ=
+C:Q199Va6VeqZH13e5Sbbrd+xrbn8ZI=
 P:valkey-openrc
-V:8.1.1-r2
+V:8.1.4-r0
 A:x86_64
-S:2590
+S:2586
 I:2405
 T:Open source high-performance key/value datastore (fork of Redis) (OpenRC init scripts)
 U:https://valkey.io/
 L:BSD-3-Clause
 o:valkey
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1751843041
-c:7df33ea4a9e63aad0429abb1ab62a7c4d2fcaaeb
-i:openrc valkey=8.1.1-r2
+t:1762852280
+c:7d15a0a9663d877b3a38cfe2d8ee903306afa07c
+i:openrc valkey=8.1.4-r0
 
 C:Q1J2hbWDOHR8BhsEqlcfUuMTHXlj0=
 P:vanessa_adt
@@ -85585,173 +85585,173 @@ c:33283848034c9885d984c8e8697c645c57324938
 D:libxcb-dev util-macros pkgconfig xcb-util=0.4.1-r3
 p:pc:xcb-atom=0.4.1 pc:xcb-aux=0.4.1 pc:xcb-event=0.4.1 pc:xcb-util=0.4.1
 
-C:Q1S6OTtubViPD+1wWC1Bt01uBY454=
+C:Q1GC2y9rZgVQ+8awz3AEIYvqk2G60=
 P:xen
-V:4.20.1-r2
+V:4.20.2-r0
 A:x86_64
-S:4763123
-I:23155244
+S:4770191
+I:23165297
 T:Xen hypervisor
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761311341
-c:e92a8d17c703fda3339f9f04a8ef2cf3825bf37e
+t:1763049938
+c:01fda49996a153d7a22b92387b66707e04cc688e
 D:bash iproute2 logrotate python3~3.12 so:libc.musl-x86_64.so.1 so:libcap-ng.so.0 so:libcurl.so.4 so:libglib-2.0.so.0 so:libncursesw.so.6 so:libxencall.so.1 so:libxenctrl.so.4.20 so:libxendevicemodel.so.1 so:libxenevtchn.so.1 so:libxenforeignmemory.so.1 so:libxenfsimage.so.4.20 so:libxengnttab.so.1 so:libxenguest.so.4.20 so:libxenhypfs.so.1 so:libxenlight.so.4.20 so:libxenstat.so.4.20 so:libxenstore.so.4 so:libxentoollog.so.1 so:libxenvchan.so.4.20 so:libxlutil.so.4.20 so:libyajl.so.2
-p:cmd:flask-get-bool=4.20.1-r2 cmd:flask-getenforce=4.20.1-r2 cmd:flask-label-pci=4.20.1-r2 cmd:flask-loadpolicy=4.20.1-r2 cmd:flask-set-bool=4.20.1-r2 cmd:flask-setenforce=4.20.1-r2 cmd:gdbsx=4.20.1-r2 cmd:vchan-socket-proxy=4.20.1-r2 cmd:xen-access=4.20.1-r2 cmd:xen-cpuid=4.20.1-r2 cmd:xen-detect=4.20.1-r2 cmd:xen-diag=4.20.1-r2 cmd:xen-hptool=4.20.1-r2 cmd:xen-hvmcrash=4.20.1-r2 cmd:xen-hvmctx=4.20.1-r2 cmd:xen-kdd=4.20.1-r2 cmd:xen-livepatch=4.20.1-r2 cmd:xen-lowmemd=4.20.1-r2 cmd:xen-mceinj=4.20.1-r2 cmd:xen-memshare=4.20.1-r2 cmd:xen-mfndump=4.20.1-r2 cmd:xen-ucode=4.20.1-r2 cmd:xen-vmtrace=4.20.1-r2 cmd:xenalyze=4.20.1-r2 cmd:xenbaked=4.20.1-r2 cmd:xenconsoled=4.20.1-r2 cmd:xencov=4.20.1-r2 cmd:xencov_split=4.20.1-r2 cmd:xenhypfs=4.20.1-r2 cmd:xenlockprof=4.20.1-r2 cmd:xenmon=4.20.1-r2 cmd:xenperf=4.20.1-r2 cmd:xenpm=4.20.1-r2 cmd:xenpmd=4.20.1-r2 cmd:xenstore-chmod=4.20.1-r2 cmd:xenstore-control=4.20.1-r2 cmd:xenstore-exists=4.20.1-r2 cmd:xenstore-list=4.20.1-r2 cmd:xenstore-ls=4.20.1-r2 cmd:xenstore-read=4.20.1-r2 cmd:xenstore-rm=4.20.1-r2 cmd:xenstore-watch=4.20.1-r2 cmd:xenstore-write=4.20.1-r2 cmd:xenstore=4.20.1-r2 cmd:xenstored=4.20.1-r2 cmd:xentop=4.20.1-r2 cmd:xentrace=4.20.1-r2 cmd:xentrace_setmask=4.20.1-r2 cmd:xentrace_setsize=4.20.1-r2 cmd:xenwatchdogd=4.20.1-r2 cmd:xl=4.20.1-r2 py3.12:grub=4.20.1-r2 py3.12:xen=4.20.1-r2
+p:cmd:flask-get-bool=4.20.2-r0 cmd:flask-getenforce=4.20.2-r0 cmd:flask-label-pci=4.20.2-r0 cmd:flask-loadpolicy=4.20.2-r0 cmd:flask-set-bool=4.20.2-r0 cmd:flask-setenforce=4.20.2-r0 cmd:gdbsx=4.20.2-r0 cmd:vchan-socket-proxy=4.20.2-r0 cmd:xen-access=4.20.2-r0 cmd:xen-cpuid=4.20.2-r0 cmd:xen-detect=4.20.2-r0 cmd:xen-diag=4.20.2-r0 cmd:xen-hptool=4.20.2-r0 cmd:xen-hvmcrash=4.20.2-r0 cmd:xen-hvmctx=4.20.2-r0 cmd:xen-kdd=4.20.2-r0 cmd:xen-livepatch=4.20.2-r0 cmd:xen-lowmemd=4.20.2-r0 cmd:xen-mceinj=4.20.2-r0 cmd:xen-memshare=4.20.2-r0 cmd:xen-mfndump=4.20.2-r0 cmd:xen-ucode=4.20.2-r0 cmd:xen-vmtrace=4.20.2-r0 cmd:xenalyze=4.20.2-r0 cmd:xenbaked=4.20.2-r0 cmd:xenconsoled=4.20.2-r0 cmd:xencov=4.20.2-r0 cmd:xencov_split=4.20.2-r0 cmd:xenhypfs=4.20.2-r0 cmd:xenlockprof=4.20.2-r0 cmd:xenmon=4.20.2-r0 cmd:xenperf=4.20.2-r0 cmd:xenpm=4.20.2-r0 cmd:xenpmd=4.20.2-r0 cmd:xenstore-chmod=4.20.2-r0 cmd:xenstore-control=4.20.2-r0 cmd:xenstore-exists=4.20.2-r0 cmd:xenstore-list=4.20.2-r0 cmd:xenstore-ls=4.20.2-r0 cmd:xenstore-read=4.20.2-r0 cmd:xenstore-rm=4.20.2-r0 cmd:xenstore-watch=4.20.2-r0 cmd:xenstore-write=4.20.2-r0 cmd:xenstore=4.20.2-r0 cmd:xenstored=4.20.2-r0 cmd:xentop=4.20.2-r0 cmd:xentrace=4.20.2-r0 cmd:xentrace_setmask=4.20.2-r0 cmd:xentrace_setsize=4.20.2-r0 cmd:xenwatchdogd=4.20.2-r0 cmd:xl=4.20.2-r0 py3.12:grub=4.20.2-r0 py3.12:xen=4.20.2-r0
 
-C:Q18xxGIzrbUnMRmP5Dl3XDpk3D5e8=
+C:Q1Hz1qMOZ7V/9sHzaBD05Nk06cag0=
 P:xen-bash-completion
-V:4.20.1-r2
+V:4.20.2-r0
 A:x86_64
-S:1904
+S:1903
 I:393
 T:Bash completions for xen
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761311341
-c:e92a8d17c703fda3339f9f04a8ef2cf3825bf37e
-i:xen=4.20.1-r2 bash-completion
+t:1763049938
+c:01fda49996a153d7a22b92387b66707e04cc688e
+i:xen=4.20.2-r0 bash-completion
 
-C:Q1qIH51ed+35pDztAUT0WmDx5nBNk=
+C:Q1h9U0kXsRUPMHbCQJEkB5d9eAsuA=
 P:xen-bridge
-V:4.20.1-r2
+V:4.20.2-r0
 A:x86_64
-S:1597
+S:1594
 I:63
 T:Bridge interface for XEN with dhcp
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761311341
-c:e92a8d17c703fda3339f9f04a8ef2cf3825bf37e
+t:1763049938
+c:01fda49996a153d7a22b92387b66707e04cc688e
 D:dnsmasq
 
-C:Q1XjCYU392zRiGYwrUcst+eIKOePs=
+C:Q1SOeXZjfP5XW5LQQRU+y6lBAtxh4=
 P:xen-bridge-openrc
-V:4.20.1-r2
+V:4.20.2-r0
 A:x86_64
-S:1809
+S:1811
 I:231
 T:Bridge interface for XEN with dhcp (OpenRC init scripts)
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761311341
-c:e92a8d17c703fda3339f9f04a8ef2cf3825bf37e
-i:openrc xen-bridge=4.20.1-r2
+t:1763049938
+c:01fda49996a153d7a22b92387b66707e04cc688e
+i:openrc xen-bridge=4.20.2-r0
 
-C:Q1RK3abrHXQWLc/w3JW5a8G8amhIY=
+C:Q18sBtvi+mdTWZGLaRV5VXHDa4jsY=
 P:xen-dev
-V:4.20.1-r2
+V:4.20.2-r0
 A:x86_64
-S:1327409
-I:4847434
+S:1325476
+I:4837557
 T:Xen hypervisor (development files)
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761311341
-c:e92a8d17c703fda3339f9f04a8ef2cf3825bf37e
-D:argp-standalone attr-dev bison curl-dev dev86 e2fsprogs-dev flex gnutls-dev libaio-dev libcap-ng-dev libnl3-dev linux-headers lzo-dev ncurses-dev openssl-dev>3 pciutils-dev perl perl-dev py3-setuptools python3-dev spice-dev texinfo util-linux-dev xz-dev yajl-dev zlib-dev zstd-dev pkgconfig xen-libs=4.20.1-r2
+t:1763049938
+c:01fda49996a153d7a22b92387b66707e04cc688e
+D:argp-standalone attr-dev bison curl-dev dev86 e2fsprogs-dev flex gnutls-dev libaio-dev libcap-ng-dev libnl3-dev linux-headers lzo-dev ncurses-dev openssl-dev>3 pciutils-dev perl perl-dev py3-setuptools python3-dev spice-dev texinfo util-linux-dev xz-dev yajl-dev zlib-dev zstd-dev pkgconfig xen-libs=4.20.2-r0
 p:pc:xencall=1.3 pc:xencontrol=4.20.0 pc:xendevicemodel=1.4 pc:xenevtchn=1.2 pc:xenforeignmemory=1.4 pc:xengnttab=1.2 pc:xenguest=4.20.0 pc:xenhypfs=1.0 pc:xenlight=4.20.0 pc:xenstat=4.20.0 pc:xenstore=4.0 pc:xentoolcore=1.0 pc:xentoollog=1.0 pc:xenvchan=4.20.0 pc:xlutil=4.20.0
 
-C:Q1B5ziAgAFxXD72RS0gHzIBCxDAIg=
+C:Q1QV9oIpdvxz1h8cplGsy4xPYn3hs=
 P:xen-doc
-V:4.20.1-r2
+V:4.20.2-r0
 A:x86_64
-S:1407945
-I:5936134
+S:1407957
+I:5936117
 T:Xen hypervisor (documentation)
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761311341
-c:e92a8d17c703fda3339f9f04a8ef2cf3825bf37e
-i:docs xen=4.20.1-r2
+t:1763049938
+c:01fda49996a153d7a22b92387b66707e04cc688e
+i:docs xen=4.20.2-r0
 
-C:Q13tQOYk3tojeyALLgdpe49w15Nc0=
+C:Q1BFoU9kYQyXoGIzfKPtNDK8lJJi0=
 P:xen-hypervisor
-V:4.20.1-r2
+V:4.20.2-r0
 A:x86_64
-S:14329806
-I:31735912
+S:14342317
+I:31760612
 T:Xen hypervisor
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761311341
-c:e92a8d17c703fda3339f9f04a8ef2cf3825bf37e
+t:1763049938
+c:01fda49996a153d7a22b92387b66707e04cc688e
 
-C:Q1fztdTgxj9q6dIkGKnM2rYMk5yNI=
+C:Q1dIcY9vvTT8uLDGyuZ0dbIfXp1KM=
 P:xen-libs
-V:4.20.1-r2
+V:4.20.2-r0
 A:x86_64
-S:699366
-I:1848360
+S:697545
+I:1838504
 T:Libraries for Xen tools
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761311341
-c:e92a8d17c703fda3339f9f04a8ef2cf3825bf37e
+t:1763049938
+c:01fda49996a153d7a22b92387b66707e04cc688e
 D:so:libbz2.so.1 so:libc.musl-x86_64.so.1 so:libext2fs.so.2 so:liblzma.so.5 so:liblzo2.so.2 so:libnl-3.so.200 so:libnl-route-3.so.200 so:libuuid.so.1 so:libyajl.so.2 so:libz.so.1 so:libzstd.so.1
 p:so:libxencall.so.1=1.3 so:libxenctrl.so.4.20=4.20.0 so:libxendevicemodel.so.1=1.4 so:libxenevtchn.so.1=1.2 so:libxenforeignmemory.so.1=1.4 so:libxenfsimage.so.4.20=4.20.0 so:libxengnttab.so.1=1.2 so:libxenguest.so.4.20=4.20.0 so:libxenhypfs.so.1=1.0 so:libxenlight.so.4.20=4.20.0 so:libxenstat.so.4.20=4.20.0 so:libxenstore.so.4=4.0 so:libxentoolcore.so.1=1.0 so:libxentoollog.so.1=1.0 so:libxenvchan.so.4.20=4.20.0 so:libxlutil.so.4.20=4.20.0
 
-C:Q1Ah9lNkRv2gK7m0XGA4ftiVhI0Bg=
+C:Q1wYYEemFZLcrksCavUlcRGX2vxw8=
 P:xen-pyc
-V:4.20.1-r2
+V:4.20.2-r0
 A:x86_64
-S:29715
+S:29710
 I:73330
 T:Precompiled Python bytecode for xen
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761311341
-c:e92a8d17c703fda3339f9f04a8ef2cf3825bf37e
+t:1763049938
+c:01fda49996a153d7a22b92387b66707e04cc688e
 D:bash iproute2 logrotate python3~3.12
-i:xen=4.20.1-r2 pyc
+i:xen=4.20.2-r0 pyc
 
-C:Q1vVxAPMPVjaPsq/uPKCo0v72LqQw=
+C:Q1NebNUshVMZB9G0YJL3bO4EXsm4Y=
 P:xen-qemu
-V:4.20.1-r2
+V:4.20.2-r0
 A:x86_64
-S:25944010
+S:25943999
 I:335728156
 T:QEMU for XEN
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761311341
-c:e92a8d17c703fda3339f9f04a8ef2cf3825bf37e
+t:1763049938
+c:01fda49996a153d7a22b92387b66707e04cc688e
 D:bash iproute2 logrotate seabios-bin so:libaio.so.1 so:libbz2.so.1 so:libc.musl-x86_64.so.1 so:libcap-ng.so.0 so:libcurl.so.4 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libjpeg.so.8 so:liblzo2.so.2 so:libncursesw.so.6 so:libpixman-1.so.0 so:libsasl2.so.3 so:libspice-server.so.1 so:libxenctrl.so.4.20 so:libxendevicemodel.so.1 so:libxenevtchn.so.1 so:libxenforeignmemory.so.1 so:libxengnttab.so.1 so:libxenstore.so.4 so:libxentoolcore.so.1 so:libz.so.1 so:libzstd.so.1
 
-C:Q17sghWf8t537j4Q4Hm5+B6IkNNSY=
+C:Q1k+/Zk+TGVBIFmj1QekR4pkkMcRA=
 P:xen-qemu-openrc
-V:4.20.1-r2
+V:4.20.2-r0
 A:x86_64
-S:2060
+S:2063
 I:759
 T:QEMU for XEN (OpenRC init scripts)
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761311341
-c:e92a8d17c703fda3339f9f04a8ef2cf3825bf37e
-i:openrc xen-qemu=4.20.1-r2
+t:1763049938
+c:01fda49996a153d7a22b92387b66707e04cc688e
+i:openrc xen-qemu=4.20.2-r0
 
 C:Q1zhyMQUaPfjr5XBfMTKZYIDsZWTY=
 P:xfsprogs
@@ -86296,21 +86296,21 @@ t:1711411161
 c:9066659fc140312ce844504fc8311d5eff5a2423
 i:docs xtables-addons=3.26-r0
 
-C:Q10KHupBDSg48VU1qGfMNO3yEpEs8=
+C:Q1urt+id65LUHFJsdQf+DwmuOn6rg=
 P:xtables-addons-lts
-V:6.12.56-r0
+V:6.12.58-r0
 A:x86_64
-S:4737217
-I:4773393
+S:4737156
+I:4773383
 T:Iptables extensions kernel modules
 U:https://inai.de/projects/xtables-addons/
 L:GPL-2.0-or-later
 o:xtables-addons-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761917530
-c:f86478f95da95b1c221426506fa41d8155040aff
-D:linux-lts=6.12.56-r0
-i:linux-lts=6.12.56-r0 xtables-addons
+t:1763128602
+c:20896662c39e2102ec0aed507b221ce63c89a3fd
+D:linux-lts=6.12.58-r0
+i:linux-lts=6.12.58-r0 xtables-addons
 
 C:Q1eNih3U/b/EzqDjDBbAkWYjti/KI=
 P:xtrans
@@ -86808,37 +86808,37 @@ c:141570442c291f7545019f41b77ea47a473270c0
 D:so:libblkid.so.1 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libintl.so.8 so:libtirpc.so.3 so:libuuid.so.1 so:libz.so.1
 p:so:libnvpair.so.3=3.0.0 so:libuutil.so.3=3.0.0 so:libzfs.so.6=6.0.0 so:libzfs_core.so.3=3.0.0 so:libzfsbootenv.so.1=1.0.0 so:libzpool.so.6=6.0.0
 
-C:Q1Sq8j3qOYWlYFA0RhUQxcX7ecpRk=
+C:Q1lg1mifM91rWxaOva0dLQDVuoWuQ=
 P:zfs-lts
-V:6.12.56-r0
+V:6.12.58-r0
 A:x86_64
-S:32380350
-I:32793642
+S:32381178
+I:32793904
 T:ZFS Linux kernel modules
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761917530
-c:3bc4c29c93bd001dcbdf90a7c505a63964322e33
-D:linux-lts=6.12.56-r0
-p:spl-vanilla=6.12.56-r0
-i:zfs linux-lts=6.12.56-r0
+t:1763128602
+c:235cde13a5faab06f2fb98073f978a14446e6e48
+D:linux-lts=6.12.58-r0
+p:spl-vanilla=6.12.58-r0
+i:zfs linux-lts=6.12.58-r0
 
-C:Q13snBFYtTGjmdXhcVfyZup/VTx7k=
+C:Q1TScSgrx77vuI32VEqqcVMnSGLYI=
 P:zfs-lts-dev
-V:6.12.56-r0
+V:6.12.58-r0
 A:x86_64
-S:497976
+S:497958
 I:3267051
 T:ZFS Linux kernel modules (development files)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761917530
-c:3bc4c29c93bd001dcbdf90a7c505a63964322e33
-D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.12.56-r0
+t:1763128602
+c:235cde13a5faab06f2fb98073f978a14446e6e48
+D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.12.58-r0
 
 C:Q1SVyFVg/Xe8zM2ZzU2pTXjz/W/gE=
 P:zfs-openrc
@@ -86901,21 +86901,21 @@ c:141570442c291f7545019f41b77ea47a473270c0
 D:python3
 p:cmd:arc_summary=2.3.2-r0 cmd:arcstat=2.3.2-r0 cmd:dbufstat=2.3.2-r0 cmd:zilstat=2.3.2-r0
 
-C:Q1tQlOJCuXre70jML0I0JXFT0RqrA=
+C:Q1oslhYgI88PTFUCKggbiv5WJH+5o=
 P:zfs-virt
-V:6.12.56-r0
+V:6.12.58-r0
 A:x86_64
-S:31988148
-I:32387819
+S:31986381
+I:32387644
 T:ZFS Linux kernel modules for virt
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1761917530
-c:3bc4c29c93bd001dcbdf90a7c505a63964322e33
-D:linux-virt=6.12.56-r0
-i:zfs linux-virt=6.12.56-r0
+t:1763128602
+c:235cde13a5faab06f2fb98073f978a14446e6e48
+D:linux-virt=6.12.58-r0
+i:zfs linux-virt=6.12.58-r0
 
 C:Q1UfF6T1Lp+lggVs2EbRAMHqDxUMo=
 P:zfs-zsh-completion
